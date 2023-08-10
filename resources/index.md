@@ -1,6 +1,6 @@
 # Hello World
 
-Hello world [@filiposka_sonja_2023_7875541].
+Hello world [@liffers_23_2020].
 
 <figure markdown>
   ![Header](attachments/header.png)
