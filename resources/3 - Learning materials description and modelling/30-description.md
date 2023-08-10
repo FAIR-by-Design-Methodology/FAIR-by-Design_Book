@@ -17,7 +17,10 @@ In addition, in line with [@R20], the full scope of learning materials is consid
 - Implementation resources that are needed to support the development and promotion of the learning content such as best practices guides, licensing and copyright used for promotion and reuse, publishing standards, etc.  
 This entails that each learning resource needs to be accompanied together with the corresponding tools for its design and consumption as well as well-defined conditions for its use as presented in Fig. 1.
 
-![Fig. 1 - Learning materials scope](./attachments/Scope.png)
+<figure markdown>
+  ![Figure 1 Learning materials scope](./attachments/Scope.png)
+  <figcaption>Fig. 1 - Learning materials scope</figcaption>
+</figure>
 
 One of the main decisions that need to be made when ensuring FAIRness of learning materials is to define the level of granularity on which the FAIR principles will start to be applied for a given set of learning materials. In other words, the main question is what is the minimum sized package of digital learning materials that is to be subjected to the FAIR principles? Is it a course (or training), a unit within a course (session within the training), or a single digital resource? If the granularity is too high, then there is a large overhead of metadata provisioning and cataloguing for a vast amount of FAIR learning resources with very little context related to them. On the other hand, low granularity will significantly reduce the effort of cataloguing, but also the possibility to combine different learning resources in order to create new learning content out of existing learning materials due to the inability to adopt only selected parts of a given material. To ensure flexibility and minimise the overhead, the minimum viable package of learning materials on which one can apply the FAIR-by-design methodology is based on the instructional design concept of learning object [@R21].
 
@@ -36,7 +39,11 @@ Furthermore, to facilitate the reuse of learning objects, the best practice is t
 
 Using this approach, the process of combining FAIR learning objects into higher level FAIR learning resources can be conceptualised in a fashion similar to the well-known Learnativity aggregation model (Fig. 2). The most granular element in the system is a raw data element that represents a single digital file with no context. Once the learning context such as a summary or concept description is provided for this file, it transforms into an information object. One or more information objects that provide the learning content around one learning objective become a learning object. These objects can then be combined into different aggregates or assemblies to define lessons, or units, which are in turn combined into collections that can represent courses or learning paths. By defining the learning object as the minimum resource to which we apply the FAIR principles, one avoids the necessity to make raw elements and information objects FAIR, while enabling the creation of FAIR aggregates and collections of various sizes and complexities. In other words, the FAIR principles for learning materials should not be applied to raw elements or simple information objects, but to learning objects and/or their aggregates. This will ensure that the FAIR learning material can be developed as a stand-alone with enough context for its intended use, but also reuse by others. Applying FAIR to lower levels than a learning object will generate too much overhead in terms of time and effort, while losing the major aspects of learning materials such as learning objective.
 
-![Fig. 2 - Learnativity aggregation model [@R24]](./attachments/Model.png)
+<figure markdown>
+  ![Figure 2 Learnativity aggregation model](./attachments/Model.png)
+  <figcaption>Fig. 2 - Learnativity aggregation model [@R24]</figcaption>
+</figure>
+
 
 In this sense, learning objects aim to facilitate FAIRness of learning materials by enabling the design of small self-contained units of learning content that can be then reused in different courses and other learning materials or even large programmes. Following these concepts, FAIR learning objects exhibit the following characteristics:
 
@@ -64,7 +71,11 @@ Similarly, the Shareable Content Object Reference Model (SCORM) [@R26] that repr
 
 The SCORM content aggregation is composed of assets, SCOs, definition of their order and metadata that describes the entire aggregation and its individual components. Thus, in the proposed model, a SCORM content aggregation can be considered to correspond to a FAIR learning object.
 
-![Fig. 3 - FAIR learning objects characteristics](./attachments/FAIRlo.png)
+<figure markdown>
+  ![Figure 3 FAIR learning objects characteristics](./attachments/FAIRlo.png)
+  <figcaption>Fig. 3 - FAIR learning objects characteristics</figcaption>
+</figure>
+
 
 In summary, the FAIR-by-design methodology strives to ensure the implementation of the following specific characteristics of FAIR learning objects (Fig. 3):
 
