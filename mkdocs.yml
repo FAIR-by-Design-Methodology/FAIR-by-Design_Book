@@ -10,7 +10,12 @@ theme:
     - navigation.footer
 markdown_extensions:
   - attr_list
+  - footnotes
+  - md_in_html
 plugins:
+  - search
+  - bibtex:
+      bib_file: "refs.bib"
   - tags
   - exclude:
       glob:
