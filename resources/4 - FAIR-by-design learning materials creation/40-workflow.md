@@ -13,4 +13,8 @@ While this methodology is to be used by instructors, in particular instructional
 
 To achieve this goal a number of guidelines and recommendations need to be followed during the design process. A high-level overview of a learning materials design workflow incorporating these FAIR augmented steps is presented in Fig. 4. The main idea of the workflow is to implement the methodology by paying attention to the FAIR specific actions in each stage of the implementation of the well-accepted backward instructional design process.
 
-![Fig. 4 - FAIR-by-design learning materials workflow](./attachments/workflow.png)
+<figure markdown>
+  ![Figure 4 FAIR-by-design learning materials workflow](./attachments/workflow.png)
+  <figcaption>Fig. 4 - FAIR-by-design learning materials workflow</figcaption>
+</figure>
+

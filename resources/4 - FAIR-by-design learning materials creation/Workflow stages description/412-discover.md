@@ -1,6 +1,10 @@
 ### Discover
 
-![Fig. 6 - Main goals of the discover stage](./attachments/discover.png)
+<figure markdown>
+  ![Figure 6 Main goals of the discover stage](./attachments/discover.png)
+  <figcaption>Fig. 6 - Main goals of the discover stage</figcaption>
+</figure>
+
 
 Once the preparation phase has been completed, but before the design and development of new learning objects is undertaken, it is a recommended best practice to discover existing related learning materials. Depending on the subject area, vast amounts of learning resources might already exist. Such reusability is at the core of the FAIR principles, promoting the extension and improvement of existing work.
 

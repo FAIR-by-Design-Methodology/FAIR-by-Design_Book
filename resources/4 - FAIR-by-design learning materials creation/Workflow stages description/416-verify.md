@@ -1,6 +1,10 @@
 ### Verify
 
-![Fig. 14 - Main goals of the verify stage](./attachments/verify.png)
+<figure markdown>
+  ![Figure 14 Main goals of the verify stage](./attachments/verify.png)
+  <figcaption>Fig. 14 - Main goals of the verify stage</figcaption>
+</figure>
+
 
 Quality Assurance checking of the produced learning materials should be performed consistently and thoroughly to ensure that the final products satisfy the required quality levels. After the internal QA check that was aimed at ensuring that all necessary materials are consumable by the target audience, upon publishing it is necessary to ensure the full QA spectrum for the learning materials. In essence this means double checking everything that was performed in the internal QA check but now in a production environment assuming the role of a leaner/instructor/interested party.
 

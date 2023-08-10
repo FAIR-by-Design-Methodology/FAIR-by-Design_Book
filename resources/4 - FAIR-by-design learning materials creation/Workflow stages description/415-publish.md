@@ -1,6 +1,9 @@
 ### Publish
 
-![Fig. 13 - Main goals of the publish stage](./attachments/publish.png)
+<figure markdown>
+  ![Figure 13 Main goals of the publish stage](./attachments/publish.png)
+  <figcaption>Fig. 13 - Main goals of the publish stage</figcaption>
+</figure>
 
 The publishing phase of the workflow refers to the release of the produced learning objects and associated metadata. The publishing refers to both newly created learning objects and new versions of previously published objects. 
 

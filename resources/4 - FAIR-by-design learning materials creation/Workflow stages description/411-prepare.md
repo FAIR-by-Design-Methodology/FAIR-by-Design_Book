@@ -1,6 +1,10 @@
 ### Prepare
 
-![Fig. 5 - Goals of the prepare stage](./attachments/prepare.png)
+<figure markdown>
+  ![Figure 5 Goals of the prepare stage](./attachments/prepare.png)
+  <figcaption>Fig. 5 - Goals of the prepare stage</figcaption>
+</figure>
+
 
 Implementing the FAIR guiding principles for learning objects requires taking into account a number of aspects before starting the actual work on designing and then creating the learning objects (content and accompanying tools and resources). Thus, the first step is to understand what other expertise is required to ensure FAIRness of the produced materials in addition to the traditional learning materials production proficiency. Or, in other words, what are the specific skills that need to be obtained in order to successfully proceed with the instructional design of FAIR learning materials?
 

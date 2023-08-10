@@ -1,6 +1,9 @@
 ### Produce
 
-![Fig. 10 - Main goals of the produce stage](./attachments/produce.png)
+<figure markdown>
+  ![Figure 10 Main goals of the produce stage](./attachments/produce.png)
+  <figcaption>Fig. 10 - Main goals of the produce stage</figcaption>
+</figure>
 
 The next step after creating the syllabus and defining the overall structure of the course is to develop the new learning objects themselves. Throughout this activity, there are three important aspects which need to be taken into consideration:
 
@@ -14,7 +17,10 @@ In the subsections that follow, it is discussed how each of these aspects relate
 
 Selecting the appropriate file formats for the learning objects is very important and can have a large impact on the overall experience that the end-users have during the learning process. As new, feature-rich, and interactive forms of content appear, it is a common occurrence for the final output format to be different than the intermediary one. The intermediary file format is the format which is used during the development phase of the learning objects. Once completed, additional tools can be used to convert this intermediary format to its final representation, which is most often no longer manually editable. Both the intermediary and final formats need to be chosen with care, since a restrictive or proprietary choice might limit the number of people who can contribute to the content during its development or make the final output inaccessible due to the lack of supported software client applications.
 
-![Fig. 11 - Taxonomy of file formats and tools](./attachments/formats.png)
+<figure markdown>
+  ![Figure 11 Taxonomy of file formats and tools](./attachments/formats.png)
+  <figcaption>Fig. 11 - Taxonomy of file formats and tools</figcaption>
+</figure>
 
 Depending on the nature of the learning objects, their domain area, and the technical proficiency of the content creators, a number of popular file formats exist today, such as: SCORM, H5P, various text-based formats, PDFs, multimedia, scientific notebooks, or even complete e-books accessible on-the-go. To better visualize the available options, Fig. 11 presents a taxonomy of file formats along with potential tools which can be used either for development or consumption. The file formats are divided into 5 distinct categories, based on their characteristics, interactivity level, content type and domain: 
 
@@ -63,7 +69,11 @@ The end goal of the efforts to ensure accessibility should be the Web Content Ac
 
 Once the structure of learning objects defined with the syllabus has been completed, the next step is to apply relevant metadata information. Enriching the learning objects with relevant metadata aids their findability and reproducibility, especially in circumstances where a permissive and open licence has also been assigned. 
 
-![Fig. 12 - Example metadata for the RePol course](./attachments/metadata.png)
+<figure markdown>
+  ![Figure 12 Example metadata for the RePol course](./attachments/metadata.png)
+  <figcaption>Fig. 12 - Example metadata for the RePol course</figcaption>
+</figure>
+
 
 Specific metadata fields can also be used to more clearly specify the wider context of a given learning object, allowing it to be independently shared and reused across different media in varying scenarios. For an example, in Fig. 12, the metadata for an example course, RePol - Repository Policy Generator hosted on the NI4OS Training Platform is presented. The metadata for this course follows an extended version of the RDA minimal metadata set, as defined by the EOSC Future project.
 

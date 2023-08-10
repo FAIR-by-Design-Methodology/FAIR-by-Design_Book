@@ -1,6 +1,10 @@
 ### Design
 
-![Fig. 7 - Main goals of the design stage](./attachments/design.png)
+<figure markdown>
+  ![Figure 7 Main goals of the design stage](./attachments/design.png)
+  <figcaption>Fig. 7 - Main goals of the design stage</figcaption>
+</figure>
+
 
 Once the learning objectives and target audience are defined, the discover step provides an opportunity to explore how learning materials with the identified or similar learning objectives are designed and implemented. This exploration enables the designer of the instructional materials to take into account different approaches and methodologies which:
 
@@ -22,7 +26,10 @@ The overall structure of an aggregated learning content, i.e. course or training
 
 Each module in this organisation should end with a module summary and a wrap-up activity, i.e. reflection and assessment, that will enable the learner feedback on whether the module outcomes have been achieved.
 
-![Fig. 8 - Hierarchical structure of aggregated learning content](./attachments/structure.png)
+<figure markdown>
+  ![Figure 8 Hierarchical structure of aggregated learning content](./attachments/structure.png)
+  <figcaption>Fig. 8 - Hierarchical structure of aggregated learning content</figcaption>
+</figure>
 
 From a FAIR perspective, the adoption of existing learning materials in the final structure at this step will depend on:
 
@@ -37,7 +44,10 @@ When the final choices on reuse are made, the attribution for each of the reused
 
 It is important to note that at this stage, the list of selected materials for reuse will also influence the overall licence of the produced FAIR learning materials (the final license of the learning object or higher aggregation, depending on the decision on which level the FAIR principles are to be applied). Thus, it is recommended that all licences are carefully checked, and an overall licence for the FAIR learning materials is chosen so that is aligned with the original licences of the reused materials as some licences do not allow changes (Fig. 9). When it comes to the Creative Commons Licences, this means that special attention is needed when the SA (Share Alike) configuration is present, restricting the use to the same licence. Another observation is that the ND (no derivative works) cannot be combined with SA, as SA applies to derivative works. Creative Commons provide a very good tutorial on the topic of remixing CC licensed work [@R92]. To decide on the final license of the new learning materials that are developed by adapting existing materials the CC guidelines on choosing an adapter’s license should be followed.
 
-![Fig. 9 - Comparison of different Creative Commons licences](./attachments/CClicenses.png)
+<figure markdown>
+  ![Figure 9 Comparison of different Creative Commons licences](./attachments/CClicenses.png)
+  <figcaption>Fig. 9 - Comparison of different Creative Commons licences</figcaption>
+</figure>
 
 When the reuse of existing learning materials does not constitute an adaptation then there is no requirement to apply SA even if reusing SA licensed work, as it is also allowed to reuse ND licensed work. In other words, CC allows combining CC licensed material with other as long as all reuses are attributed, and one complies with the NC directive when it applies.
 
