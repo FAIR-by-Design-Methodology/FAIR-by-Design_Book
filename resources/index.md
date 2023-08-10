@@ -9,6 +9,9 @@ The workflow stages also include a number of quality assurance checkpoints toget
 
 Hello world [@liffers_23_2020].
 
+[@R1]
+
+
 <figure markdown>
   ![Header](attachments/header.png)
   <figcaption>Fig. 1: Header</figcaption>
