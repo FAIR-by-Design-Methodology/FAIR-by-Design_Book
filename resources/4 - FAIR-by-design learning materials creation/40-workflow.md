@@ -2,7 +2,7 @@
 
 To ensure consistency in the process of preparation of FAIR learning materials, a methodology that will act as an overarching strategy for implementing a FAIR-by-design approach is necessary. In this way, a set of guidelines can be defined to systematically approach the development of FAIR learning materials. 
 
-The proposed methodology outlined in this section builds on the previous work related to FAIR training materials, in particular [R14], as well as the OER initiatives, aiming to take advantage of current best practices, experiences, guidelines and other acquired knowledge. It targets all activities related to the development of new learning materials by formally augmenting the traditional lifecycle of learning materials development (i.e. instructional design process) with additional aspects that will ensure the FAIRness of the resulting output. 
+The proposed methodology outlined in this section builds on the previous work related to FAIR training materials, in particular [@R14], as well as the OER initiatives, aiming to take advantage of current best practices, experiences, guidelines and other acquired knowledge. It targets all activities related to the development of new learning materials by formally augmenting the traditional lifecycle of learning materials development (i.e. instructional design process) with additional aspects that will ensure the FAIRness of the resulting output. 
 
 While this methodology is to be used by instructors, in particular instructional designers who prepare the learning materials, its outcomes (FAIR learning materials) are to be FAIR from both the instructor and learner perspective. That means that the FAIR learning materials are to be: 
 

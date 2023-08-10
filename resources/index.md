@@ -7,9 +7,6 @@ The proposed methodology builds on the previous work done in other EOSC projects
 Each stage of the workflow discusses the relevant aspects of learning material development blending learning models, materials and methods with the FAIR requirements. In this way an efficient, lean approach is proposed for instructors that are guided through each step of the design process helping them expand their instructional design skillset with FAIR relevant competencies. The approach empowers instructors to efficiently handle the following: legal issues, such as intellectual property, licensing and attribution; material description and referencing, by choosing and using a metadata schema with relevant controlled vocabularies together with the use of persistent identifiers offered by different types of possible repositories for the learning materials; interoperability issues, by learning how to combine different file formats and tools and understand the difference between final and intermediate content packages; design and structuring of the learning content, thus ensuring the most appropriate level of granularity for maximum reusability; and accessibility issues, by not just defining access rights, but also ensuring usability by people with disabilities. 
 The workflow stages also include a number of quality assurance checkpoints together with the activities on defining and handling feedback from different stakeholders supporting the process of co-creation of the learning materials with other peers. The complete process encompasses the principles for continuous improvements where the gathered feedback can be fed back to the process helping improve the quality of the produced learning material.
 
-Hello world [@liffers_23_2020].
-
-[@R1]
 
 
 <figure markdown>

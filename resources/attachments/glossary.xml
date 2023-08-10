@@ -610,7 +610,7 @@
         </ENTRY>
         <ENTRY>
           <CONCEPT>Intellectual Property Rights</CONCEPT>
-          <DEFINITION>The exclusive rights given to persons over the creations of their minds. According to the World Intellectual Property Organization [R1] ‘IP is often divided into two main categories: Industrial property includes patents for inventions, industrial designs, trademarks and geographical indications. Copyright and related rights cover literary, artistic and scientific works, including performances and broadcasts.’</DEFINITION>
+          <DEFINITION>The exclusive rights given to persons over the creations of their minds. According to the World Intellectual Property Organization [@R1] ‘IP is often divided into two main categories: Industrial property includes patents for inventions, industrial designs, trademarks and geographical indications. Copyright and related rights cover literary, artistic and scientific works, including performances and broadcasts.’</DEFINITION>
           <FORMAT>1</FORMAT>
           <USEDYNALINK>1</USEDYNALINK>
           <CASESENSITIVE>0</CASESENSITIVE>
