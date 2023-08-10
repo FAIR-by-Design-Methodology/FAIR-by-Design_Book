@@ -1,0 +1,32 @@
+site_name: FAIR-by-Design Methodology
+docs_dir: resources
+theme:
+  name: material
+  palette:
+    primary: custom
+  logo: attachments/logo-white.png
+  custom_dir: resources/overrides
+  features:
+    - navigation.footer
+markdown_extensions:
+  - attr_list
+plugins:
+  - tags
+  - mike:
+      version_selector: true
+  - exclude:
+      glob:
+        - "*Activities/*"
+        - "*Assessment/*"
+        - "*Templates/*"
+        - "*.tmp"
+        - "*.pdf"
+        - "*.gz"
+        - "*.pptx"
+        - "*_plan.md"
+        - "*_facilitator_guide.md"
+        - "FAIR-by-Design_ToT_syllabus.md"
+      regex:
+        - '.*\.(tmp|bin|tar)$'
+extra_css:
+  - stylesheets/extra.css
