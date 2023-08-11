@@ -59,7 +59,7 @@ abstract: >-
 version: 1.4.0
 languages:
   - en
-doi: 10.5072/zenodo.1224005
+doi: 10.5281/zenodo.7875540
 date-released: 2023-08-31
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
