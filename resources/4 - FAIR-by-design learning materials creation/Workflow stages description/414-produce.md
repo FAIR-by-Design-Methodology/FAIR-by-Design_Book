@@ -1,3 +1,7 @@
+---
+title: Produce
+author: Skills4EOSC T2.3
+---
 
 <figure markdown>
   ![Figure 10 Main goals of the produce stage](./attachments/produce.png)

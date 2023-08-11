@@ -1,3 +1,8 @@
+---
+title: Conclusion
+author: Skills4EOSC T2.3
+---
+
 # Conclusion
 
 Educational resources that aim to upskill relevant stakeholders on the topics related to OS and EOSC should follow the same principles that they promote, i.e. should be FAIR themselves. By incorporating the FAIR principles into the learning materials, the training and skills EOSC pillar can be implemented in a sustainable manner ensuring a strong, collaborative training community that can offer high-quality up-to-date learning materials. 

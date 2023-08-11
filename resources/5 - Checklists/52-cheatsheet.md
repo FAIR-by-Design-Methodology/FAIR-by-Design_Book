@@ -1,3 +1,8 @@
+---
+title: FAIRification of existing material
+author: Skills4EOSC T2.3
+---
+
 If the instructor has existing learning materials that need to be made FAIR then the following guide visualises how to use the proposed methodology for the purposes of FAIR-ification of existing learning materials.
 
 ![FAIRification of existing learning material](./attachments/cheatsheet.png)

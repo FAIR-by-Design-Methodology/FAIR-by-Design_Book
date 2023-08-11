@@ -1,4 +1,9 @@
-# FAIR-by-design learning materials creation
+---
+title: FAIR-by-design learning materials development
+author: Skills4EOSC T2.3
+---
+
+# FAIR-by-design learning materials development
 
 To ensure consistency in the process of preparation of FAIR learning materials, a methodology that will act as an overarching strategy for implementing a FAIR-by-design approach is necessary. In this way, a set of guidelines can be defined to systematically approach the development of FAIR learning materials. 
 

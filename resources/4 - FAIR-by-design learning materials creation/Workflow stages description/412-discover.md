@@ -1,3 +1,7 @@
+---
+title: Discover
+author: Skills4EOSC T2.3
+---
 
 <figure markdown>
   ![Figure 6 Main goals of the discover stage](./attachments/discover.png)

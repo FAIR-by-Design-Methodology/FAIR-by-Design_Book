@@ -1,5 +1,5 @@
 ---
-title: Importance of FAIR-by-Design approach
+title: FAIR-by-Design
 author: Skills4EOSC T2.3
 ---
 

@@ -1,3 +1,7 @@
+---
+title: Publish
+author: Skills4EOSC T2.3
+---
 
 <figure markdown>
   ![Figure 13 Main goals of the publish stage](./attachments/publish.png)

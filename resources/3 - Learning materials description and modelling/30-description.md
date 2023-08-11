@@ -1,3 +1,8 @@
+---
+title: Modeling learning materials
+author: Skills4EOSC T2.3
+---
+
 # Learning materials description and modelling
 
 To ensure a consistent, yet flexible, approach to the development of a FAIR-by-design methodology for EOSC related learning materials, a well-defined scope and modelling of learning materials are needed. This chapter is a formal introduction to the theories and frameworks that one can use to apply the FAIR principles to new or pre-existing EOSC learning materials.

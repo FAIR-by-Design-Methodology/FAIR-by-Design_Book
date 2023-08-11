@@ -1,3 +1,7 @@
+---
+title: Verify
+author: Skills4EOSC T2.3
+---
 
 <figure markdown>
   ![Figure 14 Main goals of the verify stage](./attachments/verify.png)

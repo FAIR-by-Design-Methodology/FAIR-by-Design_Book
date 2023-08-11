@@ -1,3 +1,8 @@
+---
+title: Describing learning materials
+author: Skills4EOSC T2.3
+---
+
 ## The importance of metadata
 
 Metadata plays a central role in the implementation of the FAIR principles and enables easier sharing of data and material. By associating relevant metadata information to each learning resource, characteristics relevant to all four FAIR aspects can be identified at a glance. Descriptive metadata that is understandable by humans and readable by machines aids the findability of the content through search engines or specialized catalogues. Including information regarding the access rules and associated licence improves the accessibility of the resources. Adding a summary description to each item and modelling its relation to other items through the use of metadata illustrates the interoperability of the given learning material, thus boosting its findability as well as reusability value.

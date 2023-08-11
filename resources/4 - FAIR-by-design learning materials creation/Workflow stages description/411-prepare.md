@@ -1,3 +1,7 @@
+---
+title: Prepare
+author: Skills4EOSC T2.3
+---
 
 <figure markdown>
   ![Figure 5 Goals of the prepare stage](./attachments/prepare.png)
