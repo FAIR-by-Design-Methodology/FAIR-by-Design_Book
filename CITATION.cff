@@ -1,0 +1,70 @@
+cff-version: 1.2.0
+message: If you use this GitBook, please cite it as below.
+authors:
+  - family-names: Filiposka
+    given-names: Sonja
+    affiliation: UKIM
+  - family-names: Green
+    given-names: Dominique
+    affiliation: UEDIN
+    orcid: https://orcid.org/0000-0002-9411-4281
+  - family-names: Mishev
+    given-names: Anastas
+    affiliation: UKIM
+    orcid: https://orcid.org/0000-0001-7271-6655
+  - family-names: Kjorveziroski
+    given-names: Vojdan
+    affiliation: UKIM
+    orcid: https://orcid.org/0000-0003-0419-4300
+  - family-names: Corleto
+    given-names: Andrea
+    affiliation: GARR
+  - family-names: Napolitano
+    given-names: Eleonora
+    affiliation: GARR
+  - family-names: Paolini
+    given-names: Gabriela
+    affiliation: GARR
+  - family-names: Di Giorgio
+    given-names: Sara
+    affiliation: GARR
+    orcid: https://orcid.org/0000-0001-8962-4183
+  - family-names: Janik
+    given-names: Joanna
+    affiliation: CNRS
+    orcid: https://orcid.org/0000-0001-7587-2995
+  - family-names: Schirru
+    given-names: Luka
+    affiliation: KUL
+    orcid: https://orcid.org/0000-0002-4706-3776
+  - family-names: Hadrossek
+    given-names: Christine
+    affiliation: CNRS
+    orcid: https://orcid.org/0000-0002-2638-6373
+  - family-names: Souyioultzoglou
+    given-names: Irakleitos
+    affiliation: OPERAS
+    orcid: https://orcid.org/0000-0002-9875-7196
+  - family-names: Leister
+    given-names: Carolin
+    affiliation: KIT
+    orcid: https://orcid.org/0000-0002-6940-0024
+  - family-names: Lazzeri
+    given-names: Emma
+    affiliation: GARR
+    orcid: https://orcid.org/0000-0003-0506-046X
+title: Methodology for FAIR-by-Design Learning Materials
+abstract: >-
+  This document describes a methodology for FAIR-by-design production of learning materials based on the backward instructional process that is extended with additional activities focusing on the implementation of the FAIR guiding principles. A general discussion on important aspect of implementation such as granularity, scope, metadata schema, interoperability and publication in relevant repositories is provided together with a step by step six stage workflow and checklists that help implement the FAIR-by-design process. The outlined methodology will be used as a blueprint for a train-the-trainer course aiming to present the practical FAIR-by-design instructional design.
+version: 1.4.0
+languages:
+  - en
+doi: 10.5072/zenodo.1224005
+date-released: 2023-08-31
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+keywords:
+  - FAIR-by-Design
+  - Methodology
+  - FAIR Learning Objects
+repository: https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_Book
