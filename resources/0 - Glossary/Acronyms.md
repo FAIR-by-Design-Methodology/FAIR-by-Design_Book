@@ -1,3 +1,7 @@
+---
+title: List of Acronyms
+author: Skills4EOSC T2.3
+---
 # Acronyms
 
 [https://eosc-portal.eu/glossary](https://eosc-portal.eu/glossary)

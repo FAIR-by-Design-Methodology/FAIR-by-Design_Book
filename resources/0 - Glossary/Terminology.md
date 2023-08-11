@@ -1,3 +1,8 @@
+---
+title: Terminology
+author: Skills4EOSC T2.3
+---
+
 # Terminology
 
 [https://eosc-portal.eu/glossary](https://eosc-portal.eu/glossary)

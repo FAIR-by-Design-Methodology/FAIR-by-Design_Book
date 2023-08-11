@@ -1,3 +1,8 @@
+---
+title: Introduction
+author: Skills4EOSC T2.3
+---
+
 # Introduction
 
 Training and skills development are the cornerstone for building an effective ecosystem wherein the users and providers can take full advantage of the new possibilities offered by the European Open Science Cloud (EOSC). Through the federation of data and research infrastructures across Europe, EOSC aims to provide seamless access and research data reuse in a robust, secure, scalable and flexible way [@R2]. To achieve this vision, in parallel with the advancements of technologies and development of resources and services, it is imperative that all traditional activities that are part of the research lifecycle are transformed using Open Science (OS) approaches. This entails empowering a diverse set of stakeholders with skills that can help them understand and employ the benefits of OS and EOSC services. And, as the EOSC ecosystem is continuously evolving, the need for continuous upskilling will remain. Having this is mind, the training and skill development activities should be implemented in a sustainable manner by building and supporting growing communities of trainers and developing high-quality reusable training materials.
