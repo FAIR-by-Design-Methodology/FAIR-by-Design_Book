@@ -1,4 +1,3 @@
-### Discover
 
 <figure markdown>
   ![Figure 6 Main goals of the discover stage](./attachments/discover.png)

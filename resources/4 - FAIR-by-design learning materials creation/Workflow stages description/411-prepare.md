@@ -1,4 +1,3 @@
-### Prepare
 
 <figure markdown>
   ![Figure 5 Goals of the prepare stage](./attachments/prepare.png)
@@ -26,7 +25,7 @@ Aligned with the joint COL-UNESCO OER Basic guide to OER, that defines the skill
 
 While the last three points are to some extent “traditionally” required skills [@R49] when it comes to instructional design and development, the specific tasks and steps related to these activities need to be adapted and further extended so that different aspects of the FAIR principles are incorporated within.
 
-#### Expanding instructional design with FAIR related skills
+## Expanding instructional design with FAIR related skills
 
 Understanding the FAIR guiding principles [@R50] is an essential step towards the goal of managing FAIR learning materials. One of the essential concepts of curating and sharing FAIR data is the use of rich metadata description of all resources necessary to support findability and reusability. When it comes to the creation of FAIR learning materials, the designer needs to choose an appropriate metadata schema developed for the purposes of describing learning materials. To ensure maximum compatibility throughout the EOSC community, the use of the RDA minimum metadata schema for learning resources [@R34] is recommended. However, considering that this schema is still under development, one may still opt to use other existing schemas especially if the developed material is specific for a certain discipline, such as the Bioschemas option [@R32]. Once the metadata schema is chosen, its related controlled vocabularies should be studied so that the appropriate terminology is used in the design process. 
 
@@ -53,7 +52,7 @@ The development of legal expertise in concepts such as Intellectual Property Rig
         - Depending on the country, the reproduction and communication of a protected work may be carried out for the sole purpose of illustration for teaching or scientific research, as long as the source, including the author's name, is indicated, unless this turns out to be impossible and to the extent justified by the non-commercial purpose to be achieved [@R60].
     - Note that another moral right is the right of integrity which provides the author with the right to object to any modifications of the work that can be considered as prejudicial to the authors’ honour or reputation. Thus, even when reuse and modifications are permitted, they should be done in such a way that does not include a derogatory treatment of the work.
 
-#### Ideation of the FAIR learning materials
+## Ideation of the FAIR learning materials
 
 In addition to these newly developed skills, best practices for the instructional design process [@R61] emphasise that, in the initial preparation phase, there should be a clear definition of the overarching aspects and considerations related to the learning materials that are going to be created. In the FAIR-by-design methodology, these aspects should be expanded with additional considerations that might affect the FAIRness of the produced result:
 

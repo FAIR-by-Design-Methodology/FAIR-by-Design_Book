@@ -1,4 +1,3 @@
-### Publish
 
 <figure markdown>
   ![Figure 13 Main goals of the publish stage](./attachments/publish.png)

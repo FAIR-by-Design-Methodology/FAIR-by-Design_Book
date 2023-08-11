@@ -1,4 +1,3 @@
-### Verify
 
 <figure markdown>
   ![Figure 14 Main goals of the verify stage](./attachments/verify.png)

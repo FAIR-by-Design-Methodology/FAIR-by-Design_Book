@@ -1,4 +1,8 @@
-## Previous work
+---
+title: Previous work
+author: Skills4EOSC T2.3
+---
+
 When it comes to implementing the FAIR principles to research datasets, there have been many projects and initiatives such as FAIRsFAIR and GO FAIR [@R7] that were tackling different aspects and challenges of accomplishing the goal of FAIR research data production. It is, however, not so straightforward to apply the FAIR principles to other research output as it is recommended for datasets. Lately, there have been substantial efforts on extending the FAIRness idea to other types of research output as highlighted by the work done by the Research Data Alliance that has extended the application of FAIR principles to research software [@R8]. 
 
 The use and development of learning materials has very specific features that needs to be adequately addressed in order to truly implement the FAIR principles, particularly when it comes to describing the materials using a metadata schema or combining materials with dissimilar licensing information. This is why the specific issue of FAIR learning materials has been of importance in the work of different EOSC projects, groups and alliances.

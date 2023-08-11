@@ -1,4 +1,3 @@
-### Design
 
 <figure markdown>
   ![Figure 7 Main goals of the design stage](./attachments/design.png)

@@ -1,4 +1,3 @@
-### Produce
 
 <figure markdown>
   ![Figure 10 Main goals of the produce stage](./attachments/produce.png)
@@ -13,7 +12,7 @@ The next step after creating the syllabus and defining the overall structure of 
 
 In the subsections that follow, it is discussed how each of these aspects relate to the FAIR principles. A taxonomy of file formats for learning objects, along with examples of tools which can be used to either create or consume the output is also provided to further support the development activities.
 
-#### File formats for learning objects
+## File formats for learning objects
 
 Selecting the appropriate file formats for the learning objects is very important and can have a large impact on the overall experience that the end-users have during the learning process. As new, feature-rich, and interactive forms of content appear, it is a common occurrence for the final output format to be different than the intermediary one. The intermediary file format is the format which is used during the development phase of the learning objects. Once completed, additional tools can be used to convert this intermediary format to its final representation, which is most often no longer manually editable. Both the intermediary and final formats need to be chosen with care, since a restrictive or proprietary choice might limit the number of people who can contribute to the content during its development or make the final output inaccessible due to the lack of supported software client applications.
 
@@ -44,7 +43,7 @@ Multimedia resources can either be embedded directly into the learning objects, 
 
 In certain cases, it might be beneficial to allow learners directly alter the content of the training material, for example during interactive exercises or analysis of results. Interactive notebook formats have rapidly gained popularity in recent years, especially in subject areas that rely on extensive visualizations or scientific data analysis. Jupyter, Shiny, and Apache Zeppelin are all representatives of interactive notebooks, which allow mixing of static and dynamic content together. Usually, the static context is text written in either plain text, Markdown, LaTeX, or RMarkdown, while the dynamic content is represented by statements written in a supported programming language. When consuming the content, users have the option of directly altering the dynamic content, either by modifying the existing visualizations, adding/removing data, or performing further analysis using the syntax of the supported programming language by the notebook instance. It is also possible to make a static export of the notebook content in one of the supported final formats such as PDF or HTML. During the export process the dynamic content is evaluated and its results are statically included in the output, barring future changes, making the material more accessible on portable devices which might otherwise encounter problems when loading the more resource intensive, albeit interactive, notebook environment.  Quarto [@R99] is another versatile option that comes in addition to the built-in tools of the mentioned interactive notebooks. It can reduce the complexity of compiling such dynamic content to a representation which is more suitable for consumption by a wider audience, such as HTML, PDF, or ePub.
 
-#### Tools for creating and consuming learning objects
+## Tools for creating and consuming learning objects
 
 Throughout the learning object development process, attention should be aimed at choosing the most suitable intermediate and final formats for delivery of the given learning material, instead of focusing on a particular tool. Nevertheless, Fig. 11 presents concrete tools which can be used for creating and consuming all of the previously discussed file formats. 
 
@@ -52,11 +51,11 @@ The tool selection in the figure is by no means exhaustive and should only serve
 
 When it comes to the vast landscape of software tools for editing text-based formats, such as Markdown and LaTeX, applications which offer on-the-fly preview of the written content can provide a more pleasant first user experience and a gentler learning curve. Examples include the Zettlr [@R102] and HedgeDoc [@R103] editors. On the other hand, more advanced users might appreciate greater customizability usually attributed to command line utilities such as Pandoc [@R104], which can be used as a general-purpose converter to/from various different formats, including producing PDF and web page representation of existing Markdown and LaTeX files.
 
-#### Ensuring compatibility and longevity of the learning objects
+## Ensuring compatibility and longevity of the learning objects
 
 Both compatibility and longevity play an important role in the development of FAIR-by-design learning objects. Instructors should strive to use open formats which are tool agnostic and compatible with a wide variety of existing software, thus avoiding proprietary features, which might also lead to an undesirable vendor lock-in effect. The use of open formats not only makes it easier for learners to consume the final output, but also increases its overall reusability, and future-proofs its usefulness. Designing the training materials using standardized and open file formats, decoupled from a specific software tool or even a particular version of a software tool ensures the longevity of the material, and limits the influence of external factors which are not controlled by neither the instructors nor learners consuming it. In the past many file formats have been tightly coupled with specific tooling, such as in the case of Java Applets or Flash, which led to the inaccessibility of many educational materials constructed using these technologies once they were deprecated. 
 
-#### Ensuring accessibility  
+## Ensuring accessibility  
 
 In this stage care must be taken that the content of the newly developed learning materials is accessible for everyone. Herein accessibility transcends the definition in FAIR and refers to the idea that people of all abilities should be able to access the content [@R105]. This includes developing content for people with different learning styles as well as ensuring that the content will be accessible to people with disabilities. In addition, it also refers to the idea that the learning materials should include different viewpoints of the subject matter. In other words, the development process should be done in such a way that the newly created learning objects are accessible, diverse and inclusive overcoming challenges such as physical impairments, learning disabilities, language comprehension, and other limitations. 
 
@@ -65,7 +64,7 @@ The Self-Publishing Guide by BCcampus [@R105] provides an exhaustive list of cha
 When it comes to the application specific accessible materials creation, there are even more specific guides that can be followed to ensure highest level of accessibility, such as the Microsoft guide for Power Point Accessibility [@R108] or the PDF accessibility guide provided by Adobe [@R109]. A set of guidelines and documents for development of accessible PDFs, presentations and spreadsheets can be found on the pages of the Accessible Electronic Documents Community of Practice (AED COP) of the Federal CIO Council of the US [@R110]. A guide to making events (including training) accessible has also been developed by the W3C Web Accessibility Initiative (WAI) [@R111].
 The end goal of the efforts to ensure accessibility should be the Web Content Accessibility Guidelines (WCAG) 2 Level AA Conformance [@R112] for all produced web content and PDF/Universal Accessibility (PDF/UA) [@R113], formally ISO 14289, for PDF materials. Note that on the level of different countries, there are different laws and standards that need to be followed in addition to these global objectives. WCAG offers a large set of accessibility checking tools [@R114] that can be used to obtain a report on the current accessibility status of the provided learning materials.
 
-#### Metadata definition across all learning objects
+## Metadata definition across all learning objects
 
 Once the structure of learning objects defined with the syllabus has been completed, the next step is to apply relevant metadata information. Enriching the learning objects with relevant metadata aids their findability and reproducibility, especially in circumstances where a permissive and open licence has also been assigned. 
 
@@ -99,7 +98,7 @@ The remaining descriptive, access, and educational fields need to be manually pr
 
 The use of automated tools for metadata enrichment can very much alleviate this step and ensure it is not prone to human error. Such automated tools can be used for continuous updating of the metadata, ensuring that the information assigned to the higher-level resources is always in sync with the changes made to the lower-level materials. Alternatively, automated tools can be used in conjunction with manual enrichment, limiting the syncing only to fields which have not been customized manually by a human operator. However, these tools should be supported by the learning management platform that is used to host the learning materials. 
 
-#### Internal quality assurance check
+## Internal quality assurance check
 
 At the end of this stage, the whole bundle of learning materials should be ready to be offered to the learners. Before this is done in the publish stage, an internal quality assurance (QA) check is needed to ensure that nothing has been overlooked and that everything combines together as intended.
 
