@@ -10,7 +10,7 @@
 
 This work by Parties of the Skills4EOSC Project is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). The Skills4EOSC project is co-funded by the European Union Horizon Europe programme under grant n° 101058527 and by UK Research and Innovation (UKRI) under the UK government's Horizon Europe funding guarantee under grant n° 10040140.
 
-## Cite as:
+## Cite as
 Filiposka, Sonja, Green, Dominique, Mishev, Anastas, Kjorveziroski, Vojdan, Corleto, Andrea, Napolitano, Eleonora, Paolini, Gabriela, Di Giorgio, Sara, Janik, Joanna, Schirru, Luca, Gingold, Arnaud, Hadrossek, Christine, Souyioultzoglou, Irakleitos, Leister, Carolin, & Lazzeri, Emma. (2023). Skills4EOSC D2.2 Methodology for FAIR-by-Design Learning Materials (GitBook). Zenodo. [https://doi.org/10.5281/zenodo.7875540](https://doi.org/10.5281/zenodo.7875540)
 
 ## Training
