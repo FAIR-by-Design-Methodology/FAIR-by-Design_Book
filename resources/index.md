@@ -12,6 +12,10 @@ This work by Parties of the Skills4EOSC Project is licensed under a [Creative Co
 ## Cite as:
 Filiposka, Sonja, Green, Dominique, Mishev, Anastas, Kjorveziroski, Vojdan, Corleto, Andrea, Napolitano, Eleonora, Paolini, Gabriela, Di Giorgio, Sara, Janik, Joanna, Schirru, Luca, Gingold, Arnaud, Hadrossek, Christine, Souyioultzoglou, Irakleitos, Leister, Carolin, & Lazzeri, Emma. (2023). Skills4EOSC D2.2 Methodology for FAIR-by-Design Learning Materials (GitBook). Zenodo. https://doi.org/10.5281/zenodo.7875540
 
+## Training
+
+If you are looking for training materials related to the practical implementation of the FAIR-by-Design Methodology access the [FAIR-by-Design Methodology Training of Trainers learning content](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/). 
+
 # Executive summary
 
 Training is vital for the European Open Science Cloud (EOSC) to succeed as key EU Open Science research meta-infrastructures. It tackles the challenge of upskilling a large community of various stakeholders with the necessary competences to both build and use data and services. It is therefore important that the EOSC training community is able to efficiently collaborate ensuring the delivery of high-quality up-to-date trainings and learning opportunities. To help achieve this goal, Task 3 of Work Package 2 within the Skills4EOSC project has developed a methodology for FAIR-by-design learning materials that will ensure maximum reusability of developed learning materials within the community, and with that higher-quality materials. 
