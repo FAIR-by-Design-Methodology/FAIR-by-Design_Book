@@ -14,7 +14,7 @@ If you are looking for training materials related to the practical implementatio
 
 ## COPYRIGHT NOTICE 
 
-![CC BY 4.0 license icon](./resources/attachments/CC-BY_large.png)
+![CC BY 4.0 License Icon](./resources/attachments/CC-BY_large.png)
 
 This work by Parties of the Skills4EOSC Project is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). The Skills4EOSC project is co-funded by the European Union Horizon Europe programme under grant n° 101058527 and by UK Research and Innovation (UKRI) under the UK government's Horizon Europe funding guarantee under grant n° 10040140.
 
