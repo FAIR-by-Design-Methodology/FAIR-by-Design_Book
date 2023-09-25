@@ -29,7 +29,7 @@ Training/learning materials development regarding OS and EOSC are still in its e
 - Learning materials formats
     - Most of the available learning materials can be found in closed formats making them difficult to be reused by other instructors, especially when adaptation is needed. Also, the available content is mostly slide handouts, video recordings of webinars or short packaged courses, while the accompanying material such as exercises, quizzes, instructional guides, etc. are difficult to find or extract;
 - Extra effort
-    - It is clear that making learning materials FAIR adds a considerable overhead on the already lengthy process of development of new learning resources. Thus, awareness is needed that additional time and competencies are required when aiming to produce high-quality FAIR learning materials with enough granularity to ensure maximum re-usability.
+    - It is clear that making learning materials FAIR adds a considerable overhead on the already lengthy process of development of new learning resources. Thus, awareness is needed that additional time, resources and competencies are required when aiming to produce high-quality FAIR learning materials with enough granularity to ensure maximum re-usability.
 
 Aiming to further support the EOSC training and skills community, one of the goals of the Skills4EOSC project is to develop a comprehensive FAIR-by-design methodology that will cover all aspects of the process of developing FAIR learning materials. This methodology is envisioned as a tool that can be used by the community of training/learning materials designers helping them upskill their traditional design process by paying attention to ensure FAIRness of the produced learning content.
 
