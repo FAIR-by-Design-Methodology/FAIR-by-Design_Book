@@ -19,3 +19,4 @@ The following checklist aims to streamline the implementation of the proposed me
 		href="https://fair-by-design-methodology.github.io/FAIR-by-Design_Book/4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/411-prepare/"
 		alt="Alt"
 		title="Title"/>		
+</map>
