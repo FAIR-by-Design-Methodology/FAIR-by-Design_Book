@@ -7,7 +7,7 @@ The following checklist aims to streamline the implementation of the proposed me
 
 ![FAIR-by-Design Methodology Checklist](./attachments/checklist.png)
 
-<img src="./attachments/checklist.png" usemap="#mapa">
+<img src="../attachments/checklist.png" usemap="#mapa">
 <map name="mapa">
 <area shape="rect"
 		coords="65,80,360,210"
