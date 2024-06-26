@@ -40,7 +40,7 @@
 
 ## Quick start
 
-If you don't have time to go through the whole methodology and would like to get an overview of the steps and jump through the main points use the [following interactive map](./imagemap.html).
+If you don't have time to go through the whole methodology and would like to get an overview of the steps and jump through the main points use the [following interactive map](./imagemap.md).
 
 ## Related materials
 
