@@ -40,7 +40,7 @@
 
 ## Quick start
 
-If you don't have time to go through the whole methodology and would like to get an overview of the steps and jump through the main points use the following interactive map.
+If you don't have time to go through the whole methodology and would like to get an overview of the steps and jump through the main points use the [following interactive map](./imagemap.html).
 
 ## Related materials
 
@@ -48,6 +48,12 @@ If you don't have time to go through the whole methodology and would like to get
 
 ## How to contribute
 
+We are constantly working on improving the FAIR-by-Design methodology and its related training materials. You can help us in our improvement efforts by providing your comments and suggestions. Just choose one or more of the following possibilities to contribute to this work:
+
+* Fill out the [always open EU Survey form](https://ec.europa.eu/eusurvey/runner/FAIR-by-Design_Open_Survey)
+* [Create an issue on GitHub](https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_Book/issues)
+* [Create a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) of [the repository that holds the content of these pages](https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_Book), make your suggestions and changes and then propose them back to the upstream repository.
+* [simply get in touch with us via email](mailto:sonja.filiposka@finki.ukim.mk)
 
 
 ## Copyright Notice
