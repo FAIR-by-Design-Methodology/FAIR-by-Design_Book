@@ -12,6 +12,9 @@ markdown_extensions:
   - attr_list
   - footnotes
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 plugins:
   - search
   - bibtex:
