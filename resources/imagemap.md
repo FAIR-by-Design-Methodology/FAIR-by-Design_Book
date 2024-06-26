@@ -2,7 +2,7 @@
 
 Click on the steps to jump to the part of the methodology that describes the step.
 
-<img src="../FAIR-by-Design_Book/attachments/checklist.png" usemap="#mapa">
+<img src="../attachments/checklist.png" usemap="#mapa">
 <map name="mapa">
 
 <area shape="rect"
