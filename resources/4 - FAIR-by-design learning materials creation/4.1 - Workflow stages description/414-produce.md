@@ -126,3 +126,5 @@ A high-level internal QA checklist that covers all aspects should include the fo
 - Use of controlled vocabularies.
 
 Many education-oriented institutions have their own internal QA processes that should be activated at this step. In this case, it is essential that the FAIR aspects are not overlooked, in particular: appropriate copyright and licensing, attribution and citing, metadata and controlled vocabularies use, and reuse possibilities.
+
+## [Review practical information on how to implement the Produce stage in the FAIR-by-Design Microlearning unit](https://fair-by-design-methodology.github.io/microlearning/latest/04%20Produce/produce/)
