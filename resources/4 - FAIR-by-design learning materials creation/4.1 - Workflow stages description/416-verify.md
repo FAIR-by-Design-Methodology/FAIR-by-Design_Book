@@ -20,7 +20,11 @@ During the verification stage various aspects of quality assurance for the learn
 
 In this model, the first 2 levels impact the learner him/herself, while the latter two levels impact the organization that the learner belongs to. 
 
+## Use QA checklists
+
 Specific quality assurance activities can be performed on the learning objects as well as on the higher levels of granularity [@R122]. Example traditional QA checklists can be found in [@R122] and [@R123]. Additional information on quality assurance can also be found in the outputs from Task 2.4 in the Skills4EOSC project.
+
+## QA of the FAIRness of the learning materials
 
 The FAIR aspects that also need to be verified at this point include:
 
@@ -34,4 +38,5 @@ To ensure wide audience reach, this step should also include a final accessibili
 The analysis of already gathered feedback can also help at this stage to verify the QA levels and if all FAIR aspects are implemented as expected.
 
 The ELIXIR FAIR training team is currently working on FAIR checklist and maturity model that can help with the implementation of the FAIR verification. The initial version of these guides are expected to be published soon as part of the ELIXIR FAIR Training Handbook [@R11].
-Within Skills4EOSC, task T2.4 is working on certification and quality assurance and, as part of this work, is developing a quality assessment framework that will enable evaluation of the overall quality of the produced learning materials, and also their FAIRness and alignement with the FAIR-by-design methodology.
+
+Within Skills4EOSC, task T2.4 is working on certification and quality assurance [@sanchez_2023_8305482] and, as part of this work, has developed a [quality assessment framework](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%206%20%E2%80%93%20Verify/19-Final%20QA%20check/19-finalQA/#self-check-qa) that will enable evaluation of the overall quality of the produced learning materials, and also their FAIRness and alignment with the FAIR-by-design methodology.
