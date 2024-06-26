@@ -8,27 +8,27 @@
 
 > The initial version of this document has been developed based on the internal project-level feedback and the conducted public consultation.  Throughout the lifetime of the Skills4EOSC project, all additional feedback gathered from relevant internal and external stakeholders as well as training sessions on how to practically implement the proposed methodology is being used to further improve the methodology and its value to the EOSC training community. The continuous improvements are made in this open GitBook version of the methodology that is envisioned to be used as a supporting training material.
 
-???+ info version 1.0 notes
+??? info version 1.0 notes
 
     First draft of the FAIR-by-Design Methodology.
 
-???+ info version 1.1 notes
+??? info version 1.1 notes
 
     Initial draft of the FAIR-by-Design Methodology reviewed by task partners.
 
-???+ info version 1.2 notes
+??? info version 1.2 notes
 
     Implemented remarks gathered from a project internal webinar were the methodology was introduced to the partners.
 
-???+ info version 1.3 notes
+??? info version 1.3 notes
 
     Implemented the remarks on the published methodology draft that were gathered with an open EU Survey. 
 
-???+ info version 1.4 notes
+??? info version 1.4 notes
 
     Implemented the remarks of the Skills4EOSC internal project reviewers
 
-???+ info version 1.5 notes
+??? info version 1.5 notes
 
     * Created release notes
     * Redesign the landing page
