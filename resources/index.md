@@ -33,7 +33,7 @@
     * Created release notes
     * Redesign the landing page
     * Added links to the developed QA framework
-    * Added information on the additionally developed microlearning module for using the FAIR-by-Design Methodology to develop learning materials. 
+    * Added links to the additionally developed microlearning module for using the FAIR-by-Design Methodology to develop learning materials. 
     * Created an interactive FAIR-by-Design Methodology map that helps users implement the methodology by jumping to the relevant point in the methodology necessary to implement each step of the checklist.
     * Added additional explanation related to publishing the learning materials in the case of closed material due to costs or other requirements.
     * Added a separate page that provides links to all related materials in one place
