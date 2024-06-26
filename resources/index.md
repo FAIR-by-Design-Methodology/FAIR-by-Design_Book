@@ -1,8 +1,40 @@
 # Essential Information
 
-## Current Version: 1.4
+## Current Version: 1.5
 
-## Version Date: 31-08-2023
+> The initial version of this document has been developed based on the internal project-level feedback and the conducted public consultation.  Throughout the lifetime of the Skills4EOSC project, all additional feedback gathered from relevant internal and external stakeholders as well as training sessions on how to practically implement the proposed methodology is being used to further improve the methodology and its value to the EOSC training community. The continuous improvements are made in this open GitBook version of the methodology that is envisioned to be used as a supporting training material.
+
+!!! info version 1.0 notes
+
+    First draft of the FAIR-by-Design Methodology.
+
+!!! info version 1.1 notes
+
+    Initial draft of the FAIR-by-Design Methodology reviewed by task partners.
+
+!!! info version 1.2 notes
+
+    Implemented remarks gathered from a project internal webinar were the methodology was introduced to the partners.
+
+!!! info version 1.3 notes
+
+    Implemented the remarks on the published methodology draft that were gathered with an open EU Survey. 
+
+!!! info version 1.4 notes
+
+    Implemented the remarks of the Skills4EOSC internal project reviewers
+
+!!! info version 1.5 notes
+
+    * Added information on the additionally developed microlearning module for using the FAIR-by-Design Methodology to develop learning materials. 
+    * Created an interactive FAIR-by-Design Methodology Checklist that helps users implement the methodology by jumping to the relevant point in the methodology necessary to implement each step of the checklist.
+    * Added additional explanation related to publishing the learning materials in the case of closed material due to costs or other requirements.
+    * Added a separate page that provides links to all related materials in one place
+    * Added information on the developed MVS profiles catalogue and their link to the methodology
+
+
+
+## Version Date: 27-06-2024
 
 ## Copyright Notice
 
@@ -16,17 +48,4 @@ Filiposka, Sonja, Green, Dominique, Mishev, Anastas, Kjorveziroski, Vojdan, Corl
 ## Training
 
 If you are looking for training materials related to the practical implementation of the FAIR-by-Design Methodology access the [FAIR-by-Design Methodology Training of Trainers learning content](https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/). 
-
-## Summary
-
-Training is vital for the European Open Science Cloud (EOSC) to succeed as key EU Open Science research meta-infrastructures. It tackles the challenge of upskilling a large community of various stakeholders with the necessary competences to both build and use data and services. It is therefore important that the EOSC training community is able to efficiently collaborate ensuring the delivery of high-quality up-to-date trainings and learning opportunities. To help achieve this goal, Task 3 of Work Package 2 within the Skills4EOSC project has developed a methodology for FAIR-by-design learning materials that will ensure maximum reusability of developed learning materials within the community, and with that higher-quality materials. 
-
-The proposed methodology builds on the previous work done in other EOSC projects, while incorporating best practices and lessons learnt from related activities such as implementation of learning platforms, development of self-paced courses, definitions of metadata schemas for training materials and integration of training catalogues. All necessary steps to ensure the production of FAIR-by-design learning materials are outlined in a six-stage workflow that extends the traditional instructional design process with additional activities aiming to incorporate within the FAIR principles. 
-
-Each stage of the workflow discusses the relevant aspects of learning material development blending learning models, materials and methods with the FAIR requirements. In this way an efficient, lean approach is proposed for instructors that are guided through each step of the design process helping them expand their instructional design skillset with FAIR relevant competencies. The approach empowers instructors to efficiently handle the following: legal issues, such as intellectual property, licensing and attribution; material description and referencing, by choosing and using a metadata schema with relevant controlled vocabularies together with the use of persistent identifiers offered by different types of possible repositories for the learning materials; interoperability issues, by learning how to combine different file formats and tools and understand the difference between final and intermediate content packages; design and structuring of the learning content, thus ensuring the most appropriate level of granularity for maximum reusability; and accessibility issues, by not just defining access rights, but also ensuring usability by people with disabilities. 
-
-The workflow stages also include a number of quality assurance checkpoints together with the activities on defining and handling feedback from different stakeholders supporting the process of co-creation of the learning materials with other peers. The complete process encompasses the principles for continuous improvements where the gathered feedback can be fed back to the process helping improve the quality of the produced learning material.
-
-> The initial version of this document has been developed based on the internal project-level feedback and the conducted public consultation.  Throughout the lifetime of the Skills4EOSC project, all additional feedback gathered from relevant internal and external stakeholders as well as training sessions on how to practically implement the proposed methodology is being used to further improve the methodology and its value to the EOSC training community. The continuous improvements are made in this open GitBook version of the methodology that is envisioned to be used as a supporting training material.
-
 
