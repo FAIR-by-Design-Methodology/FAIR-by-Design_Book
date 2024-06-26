@@ -1,6 +1,6 @@
 # Essential Information
 
-[FAIR-by-Design Methodology](./attachments/methodology.png)
+![FAIR-by-Design Methodology](./attachments/methodology.png)
 
 ## Current Version: 1.5
 
