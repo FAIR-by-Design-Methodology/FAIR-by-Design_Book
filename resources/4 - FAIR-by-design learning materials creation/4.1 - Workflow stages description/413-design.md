@@ -96,3 +96,5 @@ The instructor kit should help facilitate the process of other instructors using
 - Other resources, such as feedback form or template certificate, attendance forms, etc.
 
 An example comprehensive facilitator guide on how to organise face-to-face training events covering various logistics aspects is the TRIPLE Training Toolkit [@R96].
+
+## [Review practical information on how to implement the Design stage in the FAIR-by-Design Microlearning unit](https://fair-by-design-methodology.github.io/microlearning/latest/03%20Design/design/)
