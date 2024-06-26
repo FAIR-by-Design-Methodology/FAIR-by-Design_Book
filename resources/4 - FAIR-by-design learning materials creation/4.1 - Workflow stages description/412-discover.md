@@ -30,3 +30,5 @@ Another valuable source of learning material which can be reused is the output o
 ## Potential for reuse
 
 No matter the source of the content, careful attention should be given to the associated metadata, licensing information, and their impact on the reuse and modification. The mentioned search engines and repositories either mandate content to be openly accessible and licensed under a permissive Creative Commons licence or contain explicit licensing information and access restrictions.
+
+## [Review practical information on how to implement the Discover stage in the FAIR-by-Design Microlearning unit](https://fair-by-design-methodology.github.io/microlearning/latest/02%20Discover/discover/)
