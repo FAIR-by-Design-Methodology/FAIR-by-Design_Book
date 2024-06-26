@@ -44,4 +44,10 @@ Training on FAIR-by-Design Methodology for Learning Materials Development that w
 
 * [workshop materials](https://zenodo.org/records/8419242)
 
+## The Skills4EOSC Minimum Viable Skillsets Catalogue
+
+The MVS profiles are closely related to the FAIR-by-Design Methodology as they should be used in the Design step of the methodology while ideating the learning materials using a concept map. The MVS catalogue itself has been produced using the FAIR-by-Design methodology.
+
+* [MVS Catalogue of Open Science Career Profiles](https://fair-by-design-methodology.github.io/MVS/latest/)
+
 
