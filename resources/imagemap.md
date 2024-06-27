@@ -38,7 +38,7 @@ Click on the steps to jump to the part of the methodology that describes the ste
 
 <area shape="rect"
 		coords="390,390,695,525"
-		href="https://fair-by-design-methodology.github.io/microlearning/latest/05%20Publish/publish/"
+		href="https://fair-by-design-methodology.github.io/FAIR-by-Design_Book/4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/415-publish/#list-in-relevant-catalogues"
 		alt="INCREASE VISIBILITY"
 		title="INCREASE VISIBILITY"/>	
 <area shape="rect"
