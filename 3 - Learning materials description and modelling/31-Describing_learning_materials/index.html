@@ -1,0 +1,1157 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Skills4EOSC T2.3">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>Describing learning materials - FAIR-by-Design Methodology</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-importance-of-metadata" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="FAIR-by-Design Methodology" class="md-header__button md-logo" aria-label="FAIR-by-Design Methodology" data-md-component="logo">
+      
+  <img src="../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Methodology
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Describing learning materials
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="FAIR-by-Design Methodology" class="md-nav__button md-logo" aria-label="FAIR-by-Design Methodology" data-md-component="logo">
+      
+  <img src="../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Methodology
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Essential Information
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../imagemap/" class="md-nav__link">
+        FAIR-by-Design Interactive map
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../related_materials/" class="md-nav__link">
+        Related materials
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../summary/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          0   Glossary
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="0   Glossary" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          0   Glossary
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0%20-%20Glossary/Acronyms/" class="md-nav__link">
+        List of Acronyms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0%20-%20Glossary/Terminology/" class="md-nav__link">
+        Terminology
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          1   Introduction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1   Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          1   Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1%20-%20Introduction/10-intro/" class="md-nav__link">
+        Intro
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          2   Importance of FAIR by design approach
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2   Importance of FAIR by design approach" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          2   Importance of FAIR by design approach
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20-%20Importance%20of%20FAIR-by-design%20approach/20-Importance/" class="md-nav__link">
+        FAIR-by-Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20-%20Importance%20of%20FAIR-by-design%20approach/21-previous_work/" class="md-nav__link">
+        Previous work
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          3   Learning materials description and modelling
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="3   Learning materials description and modelling" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          3   Learning materials description and modelling
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../30-description/" class="md-nav__link">
+        Modeling learning materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Describing learning materials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Describing learning materials
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-importance-of-metadata" class="md-nav__link">
+    The importance of metadata
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-schemas" class="md-nav__link">
+    Metadata schemas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proposed-extensions-to-the-recommended-rda-metadata-schema" class="md-nav__link">
+    Proposed extensions to the recommended RDA metadata schema
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controlled-vocabularies-as-a-framework-for-metadata-values" class="md-nav__link">
+    Controlled vocabularies as a framework for metadata values
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-representation-formats" class="md-nav__link">
+    Metadata representation formats
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-longevity" class="md-nav__link">
+    Metadata longevity
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          4   FAIR by design learning materials creation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4   FAIR by design learning materials creation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          4   FAIR by design learning materials creation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/40-workflow/" class="md-nav__link">
+        FAIR-by-design learning materials development
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_2" type="checkbox" id="__nav_9_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_2">
+          4.1   Workflow stages description
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4.1   Workflow stages description" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_2">
+          <span class="md-nav__icon md-icon"></span>
+          4.1   Workflow stages description
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/41-workflow_stages_description/" class="md-nav__link">
+        Workflow Stages
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/411-prepare/" class="md-nav__link">
+        Prepare
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/412-discover/" class="md-nav__link">
+        Discover
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/413-design/" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/414-produce/" class="md-nav__link">
+        Produce
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/415-publish/" class="md-nav__link">
+        Publish
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/416-verify/" class="md-nav__link">
+        Verify
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_3" type="checkbox" id="__nav_9_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_3">
+          4.2   Continuous Improvement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4.2   Continuous Improvement" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_3">
+          <span class="md-nav__icon md-icon"></span>
+          4.2   Continuous Improvement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.2%20-%20Continuous%20Improvement/417-improvement/" class="md-nav__link">
+        Continuous Improvement
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          5   Checklists
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="5   Checklists" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          5   Checklists
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5%20-%20Checklists/51-methodology_checklist/" class="md-nav__link">
+        FAIR-by-Design Checklist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5%20-%20Checklists/52-cheatsheet/" class="md-nav__link">
+        FAIRification of existing material
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11">
+          6   Conclusion
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="6   Conclusion" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          6   Conclusion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6%20-%20Conclusion/60-conclusion/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-importance-of-metadata" class="md-nav__link">
+    The importance of metadata
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-schemas" class="md-nav__link">
+    Metadata schemas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proposed-extensions-to-the-recommended-rda-metadata-schema" class="md-nav__link">
+    Proposed extensions to the recommended RDA metadata schema
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controlled-vocabularies-as-a-framework-for-metadata-values" class="md-nav__link">
+    Controlled vocabularies as a framework for metadata values
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-representation-formats" class="md-nav__link">
+    Metadata representation formats
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-longevity" class="md-nav__link">
+    Metadata longevity
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+  <h1>Describing learning materials</h1>
+
+<h2 id="the-importance-of-metadata">The importance of metadata</h2>
+<p>Metadata plays a central role in the implementation of the FAIR principles and enables easier sharing of data and material. By associating relevant metadata information to each learning resource, characteristics relevant to all four FAIR aspects can be identified at a glance. Descriptive metadata that is understandable by humans and readable by machines aids the findability of the content through search engines or specialized catalogues. Including information regarding the access rules and associated licence improves the accessibility of the resources. Adding a summary description to each item and modelling its relation to other items through the use of metadata illustrates the interoperability of the given learning material, thus boosting its findability as well as reusability value.</p>
+<h2 id="metadata-schemas">Metadata schemas</h2>
+<p>For metadata to be effective and to fulfil the described objectives, its structure must be consistent and unambiguous, as well as adhere to a widely used schema. According to ISO, metadata schema <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> is "a logical plan showing the relationships between metadata elements, normally through establishing rules for the use and management of metadata specifically as regards the semantics, the syntax and the optionality (obligation level) of values". At present a number of metadata schemas focused on learning resources exist, with varying verbosity, tackling different aspects and subject areas. Schema.org <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> is one of the most popular examples and its versatility allows the same vocabulary to be used for different types of resources. When describing learning resources, the relevant type is "CreativeWork" <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. Being a community led effort, it is also possible to extend existing types or derive new ones. Both "Course" <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> and "LearningResource" <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> (the latter of which is still not fully integrated) share the same "CreativeWork" parent. </p>
+<p>Bioschemas <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> along with the Open Educational Resources Schema (OER) <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup> are two additional examples which are based on the work of Schema.org. Both extend the existing vocabulary with additional terms and declare new types. Bioschemas is primarily focused on describing datasets, software and training materials related to life sciences. OER is aimed at traditional learning materials, introducing granular types, such as: "Assessment", "Course", "Quiz", "Project", etc. The available context specific terms such as "termOffered", "department", "program", underscore the main applicability of this schema as one for formal education institutions. The European Life Sciences Infrastructure for Biological Information (ELIXIR) <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> has also defined a metadata set to aid the trainees of their training platform to better identify the resources relevant to them. It is less verbose than the ones already described, and includes 13 core fields of information, describing general information, prerequisites, and outcomes for each resource. </p>
+<p>Whenever discussing existing schemas or defining a completely new one, the existence of a significant trade-off needs to be recognized. On one hand the addition of new fields aids the overall descriptiveness and might increase the findability and reusability value of the described resources. However, on the other hand, mandating the presence of a large number of distinct fields hinders the adoption of the given schema, making it more difficult to ensure conformity of existing or new material. To solve this problem, the Education and Training on Handling Research Data Interest Group Research Data Alliance (ETHRD-IG RDA) task force developed the minimal RDA metadata set <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>. This metadata set has been derived through the analysis of six existing metadata schemas, some of which were described above, with the end goal of creating an easily adoptable set of metadata elements. It is expected that resource creators would benefit from such a metadata set, allowing them to describe their learning resources when making them publicly available. The RDA metadata schema consists of 14 different fields, divided into 3 different categories of information: descriptive, access, and educational. It is the recommended metadata set to be used both for existing and new learning materials. An even more restricted profile aimed at establishing faster conformity for existing materials consisting of a subset of only 3 mandatory fields has also been proposed <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup>. These fields are:</p>
+<ul>
+<li>Title – a human readable name of the learning resource</li>
+<li>Author(s) – the name of the entities authoring the learning resource</li>
+<li>URL to resource – a URL resolving either to the learning resource itself or to a dedicated page which includes additional contextual information including a direct link to the underlying resource.</li>
+</ul>
+<p>A number of training platforms are currently actively evaluating the RDA minimal metadata set, such as OpenPLATO <sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup>, the training catalogue of the SSHOC project <sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup> with training videos <sup id="fnref:13"><a class="footnote-ref" href="#fn:13">13</a></sup> and its Open Marketplace <sup id="fnref:14"><a class="footnote-ref" href="#fn:14">14</a></sup>, and the NI4OS Training Platform <sup id="fnref:15"><a class="footnote-ref" href="#fn:15">15</a></sup>. Accordingly, the Skills4EOSC Learning Platform has also adopted the RDA minimal metadata set enabling metadata description for its hosted learning objects. As the current EOSC efforts on defining a common metadata schema for learning resources are adopting the proposed minimal schema, the use of the RDA minimum metadata schema for learning resources <sup id="fnref2:9"><a class="footnote-ref" href="#fn:9">9</a></sup> is recommended taking into account that close attention should be given to its future development.</p>
+<h2 id="proposed-extensions-to-the-recommended-rda-metadata-schema">Proposed extensions to the recommended RDA metadata schema</h2>
+<p>Agreeing on an existing, well-defined, and descriptive metadata set is essential for reusability of materials, and their findability through general purpose search engines and specialized catalogues such as the currently being developed by EOSC Future <sup id="fnref:16"><a class="footnote-ref" href="#fn:16">16</a></sup> which is envisioned to become the overarching training catalogue for the EOSC community. To aid the existing effort, we recommend the extension of the RDA metadata set with two additional fields, "isPartOf" and "isBasedOn". Both of these fields are already part of Schema.org and its derivatives. The allowed value for the fields in this case would be a URL to the respective resource. The inclusion of these two fields would increase the number of minimal metadata elements to 16, but with the added benefit of being able to better model hierarchical relationships between learning materials, and the findability of related content. In essence, this will allow the metadata information to better reflect the relationships between learning objects and allow traceability of information back to its source. </p>
+<p>Additionally, the set of values possible for the licence field could be further restricted, mandating that it only be a URL to the text of the associated licence. This would make it easier for machines to understand the field and avoid ambiguities which might arise as a result of inconsistent spelling or omitting a version of a given licence.</p>
+<h2 id="controlled-vocabularies-as-a-framework-for-metadata-values">Controlled vocabularies as a framework for metadata values</h2>
+<p>To ensure the descriptive value of the additional information associated with each learning resource, and to make it consistent across different applications, metadata schemas restrict the values that a given field may contain. This can either be in the form of mandating its type – e.g., differentiating between a text or a number field; its cardinality, describing how many times it can be repeated; or its content altogether, specifying a set of pre-approved values from which the author or administrator can choose (controlled vocabulary). It is important to recognize that even though this behaviour might seem restrictive at first, it is necessary to ensure interoperability and in-ambiguity between platforms using the same metadata schema, while also providing uniform experience to the users. Content creators are strongly encouraged to adhere to the outlined guidelines. The document describing the recommended RDA metadata schema also includes information related to such restrictions <sup id="fnref:17"><a class="footnote-ref" href="#fn:17">17</a></sup>. At present the following fields of the RDA minimal metadata schema have controlled vocabularies: Primary Language, Version Date, Resource URL Type, Target Group, Learning Resource Type, Access Cost, Expertise Level. </p>
+<h2 id="metadata-representation-formats">Metadata representation formats</h2>
+<p>Metadata can be even more relevant for machines than it is for humans. By ensuring that metadata for learning materials is provided in a machine-readable format, it can be ensured that it will be interpreted in the desired context by automated tools such as search engines, crawlers, link generators, and bots. To achieve this, learning infrastructures should be capable of serving the metadata information in a variety of formats, such as: unstructured, Comma-Separated Values (CSV), JavaScript Object Notation (JSON), Extensible Markup Language (XML), YAML Ain't Markup Language (YAML). The unstructured representation is most relevant for humans and can be provided in a visually appealing way, disregarding readability by machines. The CSV format can be beneficial for doing bulk information dumps, due to its simplicity, easy understandability by humans, and interoperability with existing software. However, the formats most popular today for data interchange between machines are JSON, XML and YAML. Most training catalogues and learning resource aggregators today make use of at least one of these three formats, in order to keep the metadata information in sync across the various training portals. </p>
+<p>A number of metadata schemas have also introduced application profiles using the main standards for linked data including JavaScript Object Notation for Linked Data (JSON-LD) and Resource Description Framework (RDF). Such application profiles allow machines not only to read the data, but also interpret it and understand the context in which it is provided. The first version of the application profile for the RDA schema <sup id="fnref:18"><a class="footnote-ref" href="#fn:18">18</a></sup> has just recently been released <sup id="fnref:19"><a class="footnote-ref" href="#fn:19">19</a></sup>. </p>
+<h2 id="metadata-longevity">Metadata longevity</h2>
+<p>It is expected that learning resources will tend to have a hierarchical structure where, for example, multiple learning objects are joined together in a module, which is part of a larger aggregation, such as a course. Furthermore, as discussed so far, the introduction of comprehensive metadata will improve the findability and reusability of learning resources, thus leading to scenarios where a given learning resource is referenced by multiple, otherwise independent, resources in the hierarchy. Such data cross-referencing is expected to be done using URLs which point to information hosted at various locations across the internet (for example using the proposed "isPartOf" and "isBasedOn" metadata fields). It is natural to expect that these URLs will decay over time and some of them might become unavailable, either due to the resource being moved, expired, deleted, or corrupted. </p>
+<p>The concept of metadata longevity <sup id="fnref:20"><a class="footnote-ref" href="#fn:20">20</a></sup> is based around the idea that the existence of the metadata needs to be ensured even in the absence of the original data to which it was originally assigned. By decoupling the metadata from the resource itself, it is possible to provide descriptors of what the original data was, and to assist in its interpretation, even when the original is not present. FAIR providers are encouraged to define a metadata longevity plan, fulfilling those objectives.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>El Grito de Sunset Park Use Case. Metadata: Schema development and Documentation. URL: <a href="https://elgrito.witness.org/portfolio/metadata-schema/">https://elgrito.witness.org/portfolio/metadata-schema/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Schema.org. Getting Started with schema.org. URL: <a href="https://schema.org/docs/gs.html">https://schema.org/docs/gs.html</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Schema.org. CreativeWork - A Schema.org Type. URL: <a href="https://schema.org/CreativeWork">https://schema.org/CreativeWork</a>.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Schema.org. Course - A Schema.org Type. URL: <a href="https://schema.org/Course">https://schema.org/Course</a>.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Schema.org. LearningResource - A Schema.org Type. URL: <a href="https://schema.org/LearningResource">https://schema.org/LearningResource</a>.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Bioschemas. Bioschemas. URL: <a href="https://bioschemas.org/">https://bioschemas.org/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Open Educational Resource Schema. An RDF Vocabulary for Open Educational Resources. URL: <a href="http://oerschema.org/">http://oerschema.org/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>Leyla Garcia, Bérénice Batut, Melissa L. Burke, Mateusz Kuzak, Fotis Psomopoulos, Ricardo Arcila, Teresa K. Attwood, Niall Beard, Denise Carvalho-Silva, Alexandros C. Dimopoulos, Victoria Dominguez del Angel, Michel Dumontier, Kim T. Gurwitz, Roland Krause, Peter McQuilton, Loredana Le Pera, Sarah L. Morgan, Päivi Rauste, Allegra Via, Pascal Kahlem, Gabriella Rustici, Celia W. G. van Gelder, and Patricia M. Palagi. Ten simple rules for making training materials FAIR. May 2020. URL: <a href="https://dx.plos.org/10.1371/journal.pcbi.1007854">https://dx.plos.org/10.1371/journal.pcbi.1007854</a> (visited on 2023-03-07), <a href="https://doi.org/10.1371/journal.pcbi.1007854">doi:10.1371/journal.pcbi.1007854</a>.&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>Hoebelheinrich, Nancy J, Biernacka, Katarzyna, Brazas, Michelle, Castro, Leyla Jael, Fiore, Nicola, Hellström, Margareta, Lazzeri, Emma, Leenarts, Ellen, Martinez Lavanchy, Paula Maria, Newbold, Elizabeth, Nurnberger, Amy, Plomp, Esther, Vaira, Lucia, van Gelder, Celia W G, and Whyte, Angus. Recommendations for a minimal metadata set to aid harmonised discovery of learning resources (1.0). 2022. URL: <a href="https://doi.org/10.15497/RDA00073">https://doi.org/10.15497/RDA00073</a>.&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>EOSC Future. Training Catalogue - Minimal Metadata for Learning Resources - EOSC Future Public - Wiki. URL: <a href="https://wiki.eoscfuture.eu/display/PUBLIC/Training+Catalogue+-+Minimal+Metadata+for+Learning+Resources">https://wiki.eoscfuture.eu/display/PUBLIC/Training+Catalogue+-+Minimal+Metadata+for+Learning+Resources</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>OpenAIRE. OpenPlato - List course in catalog. URL: <a href="https://openplato.eu/blocks/catalog/list.php">https://openplato.eu/blocks/catalog/list.php</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</li>
+<li id="fn:12">
+<p>SSHOC. Search entities \textbar  SSH Training Discovery Toolkit. URL: <a href="https://training-toolkit.sshopencloud.eu/entities?search=&amp;f%5B0%5D=content_type%3Asource">https://training-toolkit.sshopencloud.eu/entities?search=&amp;f%5B0%5D=content_type%3Asource</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+</li>
+<li id="fn:13">
+<p>SSHOC. SSHOC Training videos. URL: <a href="https://www.sshopencloud.eu/video-training">https://www.sshopencloud.eu/video-training</a>.&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 13 in the text">&#8617;</a></p>
+</li>
+<li id="fn:14">
+<p>SSHOC. SSH Open Marketplace. URL: <a href="https://www.sshopencloud.eu/ssh-open-marketplace">https://www.sshopencloud.eu/ssh-open-marketplace</a>.&#160;<a class="footnote-backref" href="#fnref:14" title="Jump back to footnote 14 in the text">&#8617;</a></p>
+</li>
+<li id="fn:15">
+<p>NI4OS-Europe. NI4OS-Europe Training Platform. URL: <a href="https://training.ni4os.eu/">https://training.ni4os.eu/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:15" title="Jump back to footnote 15 in the text">&#8617;</a></p>
+</li>
+<li id="fn:16">
+<p>EOSC Portal. EOSC Search Service - Training. URL: <a href="https://search.eosc-portal.eu/search/training?q=*">https://search.eosc-portal.eu/search/training?q=*</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:16" title="Jump back to footnote 16 in the text">&#8617;</a></p>
+</li>
+<li id="fn:17">
+<p>RDA ETHRD-IG. Minimal Metadata Set. URL: <a href="https://docs.google.com/document/d/1wEaGyuqnR4frusN692b2ngxsEmaoW83y38n88JZEEeQ/edit?usp=embed_facebook&amp;usp=embed_facebook">https://docs.google.com/document/d/1wEaGyuqnR4frusN692b2ngxsEmaoW83y38n88JZEEeQ/edit?usp=embed_facebook&amp;usp=embed_facebook</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:17" title="Jump back to footnote 17 in the text">&#8617;</a></p>
+</li>
+<li id="fn:18">
+<p>Elizabeth Newbold, Gabin Kayumbi, Angus Whyte, and Emma Lazzeri. Summary Report: Workshop on Harmonising Training Resource Metadata for EOSC Communities. May 2021. Publisher: Zenodo. URL: <a href="https://zenodo.org/record/4769468">https://zenodo.org/record/4769468</a> (visited on 2023-03-07), <a href="https://doi.org/10.5281/ZENODO.4769468">doi:10.5281/ZENODO.4769468</a>.&#160;<a class="footnote-backref" href="#fnref:18" title="Jump back to footnote 18 in the text">&#8617;</a></p>
+</li>
+<li id="fn:19">
+<p>A Primer on RDA Application Profiles by Melissa Parent \textbar  RDA Toolkit. URL: <a href="https://www.rdatoolkit.org/node/256">https://www.rdatoolkit.org/node/256</a> (visited on 2023-06-26).&#160;<a class="footnote-backref" href="#fnref:19" title="Jump back to footnote 19 in the text">&#8617;</a></p>
+</li>
+<li id="fn:20">
+<p>FAIRsharing Team. FAIRsharing record for: FAIR Metrics - Metadata Longevity. 2018. URL: <a href="https://fairsharing.org/FAIRsharing.A2W4nz">https://fairsharing.org/FAIRsharing.A2W4nz</a> (visited on 2023-03-07), <a href="https://doi.org/10.25504/FAIRSHARING.A2W4NZ">doi:10.25504/FAIRSHARING.A2W4NZ</a>.&#160;<a class="footnote-backref" href="#fnref:20" title="Jump back to footnote 20 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../30-description/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Modeling learning materials" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          Modeling learning materials
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/40-workflow/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: FAIR-by-design learning materials development" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          FAIR-by-design learning materials development
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>

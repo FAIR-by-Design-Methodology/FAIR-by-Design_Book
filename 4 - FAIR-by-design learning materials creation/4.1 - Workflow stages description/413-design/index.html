@@ -1,0 +1,1221 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Skills4EOSC T2.3">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>Design - FAIR-by-Design Methodology</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#develop-syllabus" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="FAIR-by-Design Methodology" class="md-header__button md-logo" aria-label="FAIR-by-Design Methodology" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Methodology
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Design
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="FAIR-by-Design Methodology" class="md-nav__button md-logo" aria-label="FAIR-by-Design Methodology" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Methodology
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Essential Information
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../imagemap/" class="md-nav__link">
+        FAIR-by-Design Interactive map
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../related_materials/" class="md-nav__link">
+        Related materials
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../summary/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          0   Glossary
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="0   Glossary" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          0   Glossary
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../0%20-%20Glossary/Acronyms/" class="md-nav__link">
+        List of Acronyms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../0%20-%20Glossary/Terminology/" class="md-nav__link">
+        Terminology
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          1   Introduction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1   Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          1   Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1%20-%20Introduction/10-intro/" class="md-nav__link">
+        Intro
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          2   Importance of FAIR by design approach
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2   Importance of FAIR by design approach" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          2   Importance of FAIR by design approach
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2%20-%20Importance%20of%20FAIR-by-design%20approach/20-Importance/" class="md-nav__link">
+        FAIR-by-Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2%20-%20Importance%20of%20FAIR-by-design%20approach/21-previous_work/" class="md-nav__link">
+        Previous work
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          3   Learning materials description and modelling
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="3   Learning materials description and modelling" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          3   Learning materials description and modelling
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../3%20-%20Learning%20materials%20description%20and%20modelling/30-description/" class="md-nav__link">
+        Modeling learning materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../3%20-%20Learning%20materials%20description%20and%20modelling/31-Describing_learning_materials/" class="md-nav__link">
+        Describing learning materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          4   FAIR by design learning materials creation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4   FAIR by design learning materials creation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          4   FAIR by design learning materials creation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../40-workflow/" class="md-nav__link">
+        FAIR-by-design learning materials development
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_2" type="checkbox" id="__nav_9_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_2">
+          4.1   Workflow stages description
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4.1   Workflow stages description" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_2">
+          <span class="md-nav__icon md-icon"></span>
+          4.1   Workflow stages description
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../41-workflow_stages_description/" class="md-nav__link">
+        Workflow Stages
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../411-prepare/" class="md-nav__link">
+        Prepare
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../412-discover/" class="md-nav__link">
+        Discover
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Design
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Design
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#develop-syllabus" class="md-nav__link">
+    Develop syllabus
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-materials-structure" class="md-nav__link">
+    Learning materials structure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reuse-existing-learning-materials" class="md-nav__link">
+    Reuse existing learning materials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license-of-the-materials" class="md-nav__link">
+    License of the materials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructor-kit" class="md-nav__link">
+    Instructor Kit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-practical-information-on-how-to-implement-the-design-stage-in-the-fair-by-design-microlearning-unit" class="md-nav__link">
+    Review practical information on how to implement the Design stage in the FAIR-by-Design Microlearning unit
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../414-produce/" class="md-nav__link">
+        Produce
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../415-publish/" class="md-nav__link">
+        Publish
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../416-verify/" class="md-nav__link">
+        Verify
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_3" type="checkbox" id="__nav_9_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_3">
+          4.2   Continuous Improvement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4.2   Continuous Improvement" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_3">
+          <span class="md-nav__icon md-icon"></span>
+          4.2   Continuous Improvement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4.2%20-%20Continuous%20Improvement/417-improvement/" class="md-nav__link">
+        Continuous Improvement
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          5   Checklists
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="5   Checklists" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          5   Checklists
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../5%20-%20Checklists/51-methodology_checklist/" class="md-nav__link">
+        FAIR-by-Design Checklist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../5%20-%20Checklists/52-cheatsheet/" class="md-nav__link">
+        FAIRification of existing material
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11">
+          6   Conclusion
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="6   Conclusion" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          6   Conclusion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../6%20-%20Conclusion/60-conclusion/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#develop-syllabus" class="md-nav__link">
+    Develop syllabus
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-materials-structure" class="md-nav__link">
+    Learning materials structure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reuse-existing-learning-materials" class="md-nav__link">
+    Reuse existing learning materials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license-of-the-materials" class="md-nav__link">
+    License of the materials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructor-kit" class="md-nav__link">
+    Instructor Kit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-practical-information-on-how-to-implement-the-design-stage-in-the-fair-by-design-microlearning-unit" class="md-nav__link">
+    Review practical information on how to implement the Design stage in the FAIR-by-Design Microlearning unit
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+  <h1>Design</h1>
+
+<figure>
+<p><img alt="Figure 7 Main goals of the design stage" src="../attachments/design.png" />
+  </p>
+<figcaption>Fig. 7 - Main goals of the design stage</figcaption>
+</figure>
+<p>Once the learning objectives and target audience are defined, the discover step provides an opportunity to explore how learning materials with the identified or similar learning objectives are designed and implemented. This exploration enables the designer of the instructional materials to take into account different approaches and methodologies which:</p>
+<ul>
+<li>can serve as an inspiration, </li>
+<li>can be used as additional or supporting materials, or </li>
+<li>can be reused, in part or as a whole, as the main resources that will help learners achieve one or more learning objectives. </li>
+</ul>
+<p>The choices made need to be aligned with the plans on implementing assessment and evaluation, as they influence the selection of teaching methodologies and content type, making the design outcome oriented. An optimal strategy is to aim for building in a variety of different assessment techniques such as discussions and reflections, quizzes, simulations, projects, case studies, self and peer evaluations, etc. </p>
+<h2 id="develop-syllabus">Develop syllabus</h2>
+<p>Following the stages of the backward instructional design process, during this third step of the methodology the syllabus, needs to be developed <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. The main goal of the syllabus, also known as the content concept map, is to provide a summarised version of the learning content, listing fundamental information with clear learning objectives, modules (or topics) that will be covered, and teaching methods employed. The programme needs to be tailored according to the needs of the identified target audience and aim. </p>
+<p>One of the most important steps in this stage when it comes to development of Open Science related learning materials is to align the syllabus with the developed Minimum Viable Skills profiles <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. These profiles define the skills and competences necessary for a set of identified profiles related to Open Science. Thus, the <a href="https://fair-by-design-methodology.github.io/MVS/latest/">MVS profiles catalogue</a> should be used as a starting place for the development of the concept map.</p>
+<p>Best practices <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> are to facilitate a rich learning experience by defining a modular structure that will be composed of the essential knowledge necessary to achieve the learning objectives augmented with additional resources for further elaboration for learners that are interested in obtaining more in-depth knowledge on a given topic. In summary, the course syllabus is a document that presents the purpose of the learning content with precise description of what is to be learnt, how and when under the assumption of the defined prerequisites. The Framework for Open and Reproducible Research Training (FORRT) offers a list of Open Science syllabi <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> in various formats and detail level.</p>
+<h2 id="learning-materials-structure">Learning materials structure</h2>
+<p>The defined syllabus can then be used as a blueprint to build the structure of the learning content and clearly identify which modules will be reused based on the output from the previous discovery step and which are going to be developed in the next stages. When building more complex, aggregated learning content, they should be organised in a corresponding group of smaller aggregates that decompose to the level of learning objects (Fig. 8).</p>
+<p>The overall structure of an aggregated learning content, i.e. course or training, should include:</p>
+<ul>
+<li>Sections – each referring to one overarching theme, which are comprised of</li>
+<li>Modules – each with defined main goals, description and rationale, which are comprised of</li>
+<li>Learning units – each corresponding to one lesson with its specific objectives, activities and tasks, description of organisation and further reading, which are comprised of</li>
+<li>One or more learning objects – each with a well-defined learning objective.</li>
+</ul>
+<p>Each module in this organisation should end with a module summary and a wrap-up activity, i.e. reflection and assessment, that will enable the learner feedback on whether the module outcomes have been achieved.</p>
+<figure>
+<p><img alt="Figure 8 Hierarchical structure of aggregated learning content" src="../attachments/structure.png" />
+  </p>
+<figcaption>Fig. 8 - Hierarchical structure of aggregated learning content</figcaption>
+</figure>
+<h2 id="reuse-existing-learning-materials">Reuse existing learning materials</h2>
+<p>From a FAIR perspective, the adoption of existing learning materials in the final structure at this step will depend on:</p>
+<ul>
+<li>Granularity of the materials – if the material represents a higher-level aggregation it will be more difficult to incorporate into a specific structure. In this case, it should be investigated if it can be used in part with some modifications. This entails the requirements that the content is provided under a licence that allows derivations and modifications and having the appropriate tools and experience for editing the content.</li>
+<li>Interoperability – the selected existing learning materials may be provided in different formats and various tools may be needed to consume their content. The final choice must be done so as to ensure that the combined materials are interoperable and can be consumed by the learners. To achieve this, a list of all tools necessary to access the learning materials needs to be developed, ensuring that each tool on this list is accessible to the learners via the chosen method of delivery. Similarly, a list of tools for editing the materials need to be maintained for future reusability purposes.</li>
+<li>Adaptability – it is preferable to choose existing learning materials that are adaptable to various learning and technical contexts as they provide flexibility when reused in an alternative context or environment. This entails that the material will still make sense and fit well in other structures, not just the original structure and context for which it was produced.</li>
+<li>Licence compatibility – All chosen materials for reuse should be available under a licence that permits reuse in the way it is planned to be used (see Fig. 9 modify and adapt): for commercial use or not, with modification and adaptation permission or not.</li>
+</ul>
+<p>For an example the CRI Open Science Course on Zenodo <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> is offered as one editable document stating that it is adaptation of previous work at the top, while the Opensciency curriculum material on Zenodo <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> is divided into five modules, each with its own set of contributors, making it easier to manage and reuse. </p>
+<p>When the final choices on reuse are made, the attribution for each of the reused learning materials should be defined and added to the information in the appropriate structure level (section, module, unit). This will not only ensure that licences are respected where attribution is required, but it will also promote transparency and ethical conduct by providing attribution. </p>
+<h2 id="license-of-the-materials">License of the materials</h2>
+<p>It is important to note that at this stage, the list of selected materials for reuse will also influence the overall licence of the produced FAIR learning materials (the final license of the learning object or higher aggregation, depending on the decision on which level the FAIR principles are to be applied). Thus, it is recommended that all licences are carefully checked, and an overall licence for the FAIR learning materials is chosen so that is aligned with the original licences of the reused materials as some licences do not allow changes (Fig. 9). When it comes to the Creative Commons Licences, this means that special attention is needed when the SA (Share Alike) configuration is present, restricting the use to the same licence. Another observation is that the ND (no derivative works) cannot be combined with SA, as SA applies to derivative works. Creative Commons provide a very good tutorial on the topic of remixing CC licensed work <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>. To decide on the final license of the new learning materials that are developed by adapting existing materials the CC guidelines on choosing an adapter’s license should be followed.</p>
+<figure>
+<p><img alt="Figure 9 Comparison of different Creative Commons licences" src="../attachments/CClicenses.png" />
+  </p>
+<figcaption>Fig. 9 - Comparison of different Creative Commons licences</figcaption>
+</figure>
+<p>When the reuse of existing learning materials does not constitute an adaptation then there is no requirement to apply SA even if reusing SA licensed work, as it is also allowed to reuse ND licensed work. In other words, CC allows combining CC licensed material with other as long as all reuses are attributed, and one complies with the NC directive when it applies.</p>
+<p>Copyleft licences <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> are another set of licences that provide the freedom to copy and share the work with others, together with the freedom to modify the work and distribute modified. However, in this case the work can only be distributed under the same or equivalent licence. Copyleft is mostly used for software, but it can be used on any type of work. Table 1 provides a generalised summary of the licensing specifics and restrictions of different types of licences that can be used for learning materials.</p>
+<p>Table 1 - Generalised summary of different licenses (based on <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Copyright</th>
+<th>Copyleft</th>
+<th>Creative Commons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>URL</td>
+<td>https://www.copyright.eu/</td>
+<td>https://copyleft.org/</td>
+<td>https://creativecommons.org/</td>
+</tr>
+<tr>
+<td>What is a user allowed to do with the work?</td>
+<td>What author/owner dictates</td>
+<td>What user wants under certain rules</td>
+<td>What user wants within the   licence restrictions</td>
+</tr>
+<tr>
+<td>Clause of the use</td>
+<td>As author/owner dictates</td>
+<td>requires attribution to author   and copyleft</td>
+<td>Requires attribution to author</td>
+</tr>
+<tr>
+<td>Re-licencing</td>
+<td>As author/owner dictates</td>
+<td>Derivative work cannot be released as proprietary and should be   licensed under a copyleft licence</td>
+<td>Derivative work can be released   under another licence or as proprietary (as long as the share alike rules   don’t apply)</td>
+</tr>
+<tr>
+<td>Commercial use</td>
+<td>As author/owner dictates</td>
+<td>Permitted when using the work as   a commodity tool or component to provide a service or product</td>
+<td>Permitted for certain CC licence   types (as long as the non-commercial rules don’t apply)</td>
+</tr>
+</tbody>
+</table>
+<p>Note: it is strongly recommended to always check the terms of the specific licences, because they may provide additional/other obligations regarding the items addressed in this table.         </p>
+<h2 id="instructor-kit">Instructor Kit</h2>
+<p>To be effectively reused, the learning materials should also be augmented with accompanying materials that comprise the so-called instructor kit, or facilitator guide <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup>. The kit is especially important for traditional learning settings (face to face), but also for hybrid and blended delivery of the learning material. Even in the case of online learning, there usually is an option for some type of interaction with the instructors, and the way this interaction is organised, its timing and frequency, scope and methods should be explained in the accompanying material. </p>
+<p>The instructor kit should help facilitate the process of other instructors using the learning material. Thus, a comprehensive instructor kit should contain the following information:</p>
+<ul>
+<li>How the material is structured in different sections, and what should be considered before starting and after completing each section (for example, ice breakers and reflections);</li>
+<li>Tips and tricks on how to make the delivery more effective based on the proposed teaching methodology;</li>
+<li>Best practices on the agenda (timing, pace, breaks) while covering the content;</li>
+<li>When to start and how to manage discussions;</li>
+<li>Organising and running different exercises;</li>
+<li>Room preparation and set-up, tools and props required (in case of physical delivery);</li>
+<li>A workbook that can be shared with the learners to be used as a study guide;</li>
+<li>Script/Notes that provide instructions what needs to be covered in each section;</li>
+<li>Assessment setup and questions;</li>
+<li>Step-by-step instructions on running exercises for a particular content together with handouts that should be provided to the learners;</li>
+<li>Other resources, such as feedback form or template certificate, attendance forms, etc.</li>
+</ul>
+<p>An example comprehensive facilitator guide on how to organise face-to-face training events covering various logistics aspects is the TRIPLE Training Toolkit <sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup>.</p>
+<h2 id="review-practical-information-on-how-to-implement-the-design-stage-in-the-fair-by-design-microlearning-unit"><a href="https://fair-by-design-methodology.github.io/microlearning/latest/03%20Design/design/">Review practical information on how to implement the Design stage in the FAIR-by-Design Microlearning unit</a></h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Ada Ren. Designing a Blueprint. September 2013. URL: <a href="https://dltoolkit.mit.edu/online-course-design-guide/design/designing-a-blueprint/">https://dltoolkit.mit.edu/online-course-design-guide/design/designing-a-blueprint/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Angus Whyte, Dominique Green, Karla Avanço, Sara Di Giorgio, Arnaud Gingold, Laurence Horton, Bojana Koteska, Katerina Kyprianou, Ognjen Prnjat, Päivi Rauste, Luca Schirru, Claire Sowinski, Gabriela Torres Ramos, Nida van Leersum, Curtis Sharma, Eva Méndez, and Emma Lazzeri. D2.1 Catalogue of Open Science Career Profiles - Minimum Viable Skillsets. June 2023. URL: <a href="https://doi.org/10.5281/zenodo.8101903">https://doi.org/10.5281/zenodo.8101903</a>, <a href="https://doi.org/10.5281/zenodo.8101903">doi:10.5281/zenodo.8101903</a>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Center for Teaching and Learning. Modular Course Design. August 2017. Section: Course Structure. URL: <a href="https://ctl.wiley.com/modular-course-design/">https://ctl.wiley.com/modular-course-design/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>FORRT. FORRT’s Open and Reproducible Science Syllabus. URL: <a href="https://forrt.org/syllabus/">https://forrt.org/syllabus/</a> (visited on 2023-08-07).&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Enric Senabre Hidalgo, Bastian Greshake Tzovaras, Ignacio Atal, and Ariel Lindner. CRI Open Science Course. May 2021. URL: <a href="https://zenodo.org/record/4767242">https://zenodo.org/record/4767242</a> (visited on 2023-08-07), <a href="https://doi.org/10.5281/zenodo.4767242">doi:10.5281/zenodo.4767242</a>.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Batool Almarzouq, Flavio Azevedo, Natasha Batalha, Johanna Bayer, Tomo Bell, Saranjeet Bhogal, Melissa Black, Sierra Brown, Elio Campitelli, Taher Chegini, Daniel Dunleavy, Yeo Keat Ee, Sara El-Gebali, Christopher Erdmann, Jannatul Ferdush, Anne Fouilloux, Siobhan Mackenzie Hall, Ismael Kherroubi Garcia, Stephen Klusza, Michel Lacerda, Andrea Medina-Smith, Mariana Meireles, Shamsuddeen Muhammad, Babatunde Onabajo, Amber Osman, Elli Papadopoulou, Karega Pauline, Esther Plomp, Douglas Rao, Rebecca Ringuette, Daniela Saderi, Hugh Shanahan, Malvika Sharan, Miguel Silan, Mayya Sundukova, Tyson Swetnam, Ana Vaz, and Yo Yehudi. Opensciency - A core open science curriculum by and for the research community. February 2023. URL: <a href="https://zenodo.org/record/7662732">https://zenodo.org/record/7662732</a> (visited on 2023-08-07), <a href="https://doi.org/10.5281/zenodo.7662732">doi:10.5281/zenodo.7662732</a>.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Creative Commons. 4.4 Remixing CC-Licensed Work \textbar  Creative Commons Certificate for Educators, Academic Librarians and GLAM. URL: <a href="https://certificates.creativecommons.org/cccertedu/chapter/4-4-remixing-cc-licensed-work/">https://certificates.creativecommons.org/cccertedu/chapter/4-4-remixing-cc-licensed-work/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>Copyleft. Copyleft. URL: <a href="https://copyleft.org/">https://copyleft.org/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>Moqod. Understanding open-source and free software licensing. October 2021. URL: <a href="https://moqod-software.medium.com/understanding-open-source-and-free-software-licensing-c0fa600106c9">https://moqod-software.medium.com/understanding-open-source-and-free-software-licensing-c0fa600106c9</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>Pat Michaels. Key Components of a Facilitator Guide. URL: <a href="https://www.greatcirclelearning.com/blog/key-components-of-a-well-constructed-facilitator-guide">https://www.greatcirclelearning.com/blog/key-components-of-a-well-constructed-facilitator-guide</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>Francesca Di Donato, Lottie Provost, Tiziana Lombardo, Michela Vignoli, Stefanie Pohle, Erzsébet Tóth-Czifra, Yin Chen, and Emilie Blotière. TRIPLE Training Toolkit. February 2022. Publisher: Zenodo Version Number: 0.1. URL: <a href="https://zenodo.org/record/6256198">https://zenodo.org/record/6256198</a> (visited on 2023-03-07), <a href="https://doi.org/10.5281/ZENODO.6256198">doi:10.5281/ZENODO.6256198</a>.&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../412-discover/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Discover" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          Discover
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../414-produce/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: Produce" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          Produce
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>

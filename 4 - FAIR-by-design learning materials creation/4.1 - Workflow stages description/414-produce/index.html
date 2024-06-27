@@ -1,0 +1,1235 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Skills4EOSC T2.3">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>Produce - FAIR-by-Design Methodology</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#file-formats-for-learning-objects" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="FAIR-by-Design Methodology" class="md-header__button md-logo" aria-label="FAIR-by-Design Methodology" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Methodology
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Produce
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="FAIR-by-Design Methodology" class="md-nav__button md-logo" aria-label="FAIR-by-Design Methodology" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Methodology
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Essential Information
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../imagemap/" class="md-nav__link">
+        FAIR-by-Design Interactive map
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../related_materials/" class="md-nav__link">
+        Related materials
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../summary/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          0   Glossary
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="0   Glossary" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          0   Glossary
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../0%20-%20Glossary/Acronyms/" class="md-nav__link">
+        List of Acronyms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../0%20-%20Glossary/Terminology/" class="md-nav__link">
+        Terminology
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          1   Introduction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1   Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          1   Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1%20-%20Introduction/10-intro/" class="md-nav__link">
+        Intro
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          2   Importance of FAIR by design approach
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2   Importance of FAIR by design approach" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          2   Importance of FAIR by design approach
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2%20-%20Importance%20of%20FAIR-by-design%20approach/20-Importance/" class="md-nav__link">
+        FAIR-by-Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2%20-%20Importance%20of%20FAIR-by-design%20approach/21-previous_work/" class="md-nav__link">
+        Previous work
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          3   Learning materials description and modelling
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="3   Learning materials description and modelling" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          3   Learning materials description and modelling
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../3%20-%20Learning%20materials%20description%20and%20modelling/30-description/" class="md-nav__link">
+        Modeling learning materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../3%20-%20Learning%20materials%20description%20and%20modelling/31-Describing_learning_materials/" class="md-nav__link">
+        Describing learning materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          4   FAIR by design learning materials creation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4   FAIR by design learning materials creation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          4   FAIR by design learning materials creation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../40-workflow/" class="md-nav__link">
+        FAIR-by-design learning materials development
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_2" type="checkbox" id="__nav_9_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_2">
+          4.1   Workflow stages description
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4.1   Workflow stages description" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_2">
+          <span class="md-nav__icon md-icon"></span>
+          4.1   Workflow stages description
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../41-workflow_stages_description/" class="md-nav__link">
+        Workflow Stages
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../411-prepare/" class="md-nav__link">
+        Prepare
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../412-discover/" class="md-nav__link">
+        Discover
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../413-design/" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Produce
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Produce
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file-formats-for-learning-objects" class="md-nav__link">
+    File formats for learning objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-for-creating-and-consuming-learning-objects" class="md-nav__link">
+    Tools for creating and consuming learning objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ensuring-compatibility-and-longevity-of-the-learning-objects" class="md-nav__link">
+    Ensuring compatibility and longevity of the learning objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ensuring-accessibility" class="md-nav__link">
+    Ensuring accessibility
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-definition-across-all-learning-objects" class="md-nav__link">
+    Metadata definition across all learning objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#internal-quality-assurance-check" class="md-nav__link">
+    Internal quality assurance check
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-practical-information-on-how-to-implement-the-produce-stage-in-the-fair-by-design-microlearning-unit" class="md-nav__link">
+    Review practical information on how to implement the Produce stage in the FAIR-by-Design Microlearning unit
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../415-publish/" class="md-nav__link">
+        Publish
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../416-verify/" class="md-nav__link">
+        Verify
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_3" type="checkbox" id="__nav_9_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_3">
+          4.2   Continuous Improvement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4.2   Continuous Improvement" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_3">
+          <span class="md-nav__icon md-icon"></span>
+          4.2   Continuous Improvement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4.2%20-%20Continuous%20Improvement/417-improvement/" class="md-nav__link">
+        Continuous Improvement
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          5   Checklists
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="5   Checklists" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          5   Checklists
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../5%20-%20Checklists/51-methodology_checklist/" class="md-nav__link">
+        FAIR-by-Design Checklist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../5%20-%20Checklists/52-cheatsheet/" class="md-nav__link">
+        FAIRification of existing material
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11">
+          6   Conclusion
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="6   Conclusion" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          6   Conclusion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../6%20-%20Conclusion/60-conclusion/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file-formats-for-learning-objects" class="md-nav__link">
+    File formats for learning objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-for-creating-and-consuming-learning-objects" class="md-nav__link">
+    Tools for creating and consuming learning objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ensuring-compatibility-and-longevity-of-the-learning-objects" class="md-nav__link">
+    Ensuring compatibility and longevity of the learning objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ensuring-accessibility" class="md-nav__link">
+    Ensuring accessibility
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-definition-across-all-learning-objects" class="md-nav__link">
+    Metadata definition across all learning objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#internal-quality-assurance-check" class="md-nav__link">
+    Internal quality assurance check
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-practical-information-on-how-to-implement-the-produce-stage-in-the-fair-by-design-microlearning-unit" class="md-nav__link">
+    Review practical information on how to implement the Produce stage in the FAIR-by-Design Microlearning unit
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+  <h1>Produce</h1>
+
+<figure>
+<p><img alt="Figure 10 Main goals of the produce stage" src="../attachments/produce.png" />
+  </p>
+<figcaption>Fig. 10 - Main goals of the produce stage</figcaption>
+</figure>
+<p>The next step after creating the syllabus and defining the overall structure of the course is to develop the new learning objects themselves. Throughout this activity, there are three important aspects which need to be taken into consideration:</p>
+<ul>
+<li>The intermediary and final file formats of the produced learning objects;</li>
+<li>The required software tools for producing and consuming the learning objects;</li>
+<li>Ensuring future-proof compatibility and longevity of the learning objects.</li>
+</ul>
+<p>In the subsections that follow, it is discussed how each of these aspects relate to the FAIR principles. A taxonomy of file formats for learning objects, along with examples of tools which can be used to either create or consume the output is also provided to further support the development activities.</p>
+<h2 id="file-formats-for-learning-objects">File formats for learning objects</h2>
+<p>Selecting the appropriate file formats for the learning objects is very important and can have a large impact on the overall experience that the end-users have during the learning process. As new, feature-rich, and interactive forms of content appear, it is a common occurrence for the final output format to be different than the intermediary one. The intermediary file format is the format which is used during the development phase of the learning objects. Once completed, additional tools can be used to convert this intermediary format to its final representation, which is most often no longer manually editable. Both the intermediary and final formats need to be chosen with care, since a restrictive or proprietary choice might limit the number of people who can contribute to the content during its development or make the final output inaccessible due to the lack of supported software client applications.</p>
+<figure>
+<p><img alt="Figure 11 Taxonomy of file formats and tools" src="../attachments/formats.png" />
+  </p>
+<figcaption>Fig. 11 - Taxonomy of file formats and tools</figcaption>
+</figure>
+<p>Depending on the nature of the learning objects, their domain area, and the technical proficiency of the content creators, a number of popular file formats exist today, such as: SCORM, H5P, various text-based formats, PDFs, multimedia, scientific notebooks, or even complete e-books accessible on-the-go. To better visualize the available options, Fig. 11 presents a taxonomy of file formats along with potential tools which can be used either for development or consumption. The file formats are divided into 5 distinct categories, based on their characteristics, interactivity level, content type and domain: </p>
+<ul>
+<li>Interactive, </li>
+<li>Text-based, </li>
+<li>Visually Appealing, </li>
+<li>Multimedia, and</li>
+<li>Scientific. </li>
+</ul>
+<p>The interactive category is comprised of three file formats: SCORM, H5P, and HTML5. Both SCORM and H5P are dedicated file formats for learning objects and enjoy wide ranging support from learning management systems (LMS) today, making them a popular choice. The main benefits of using a file format from this category is the high level of interactivity that can be achieved, since various activities can be directly embedded in the content itself, such as quizzes, interactive maps, videos, audio, and animations, thus providing a cohesive, all-in-one experience to self-paced learners in an asynchronous learning environment. With advancements made in terms of web standards in recent years, all modern web browsers support the consumption of both SCORM and H5P resources, since their final representation is HTML5, in the majority of cases. Technically proficient educators can also opt to develop their learning objects natively with HTML and other relevant technologies, such as JavaScript, in cases where the SCORM or H5P suite of tools do not meet their demands. Such manual development of learning objects without using an existing framework is rarely seen in practice and is generally discouraged due to the increased time requirements and complexity. However, it must be noted that as meaningful changes to the final output of both SCORM and H5P cannot be made easily, instructors should make the intermediary representation of these resources publicly available as well, allowing others to reuse parts of the content more easily.</p>
+<p>The second category in the taxonomy is comprised of various formats with a common characteristic – they are all text-based and can be easily edited with regular text editors, in addition to more feature complete software dedicated to a particular file format. Plain text files, while being easy to write and consume, are less visually appealing since formatting and typography customization are limited. On the other hand, virtually all computing devices ever produced have support for consuming basic plain text content. The next three formats: LaTeX, Markdown and RMarkdown are intermediary formats, rarely used as the final output. They combine the versatility of plain text with advanced formatting features and can be converted to various representations (e.g., PDF, HTML) with converters. These new formatting features are introduced into what are otherwise plain text files through the use of a specialized syntax with variable complexity, with Markdown being least complex and LaTeX being the most complex. All three formats are in wide use today among educational communities, with the main benefits being the easy conversion to a web-based representation, the ability to write in plain text without specialized software, and easy file versioning. Even though reverse conversion from HTML and PDF back to the intermediary format is technically possible, it is still advised to publish the source text material as well. Finally, the office formats such as the open source .odt and Microsoft specific .docx enjoy the largest popularity today, as a result of modern, well-tested text processors which provide graphical user interfaces, eliminating the need for specific text-based syntax in order to achieve the desired representation and formatting. While it is possible to use both HTML and PDF as the final representation in this case as well, Office formats are more limited in terms of source code representation (important for specific disciplines) or embedding of third-party content (increased interaction).</p>
+<p>While it is true that visually appealing material can be achieved using a wide variety of file formats, this category introduces 1 intermediary format and 2 final formats which are known for the pleasant visual properties of their content. Slides or presentation file formats such as the open-source .odp or Microsoft specific .pptx not only offer creation of text-based presentations, but also allow the introduction of additional material, such as interactive objects, video, audio, and animations. With the use of software addons, it is also possible to convert such media heavy presentations directly into HTML5 or SCORM, instead of static PDFs. Additionally, for more advanced users, visually appealing presentations can also be achieved by using the Marp framework [85], allowing slides to be formatted using Markdown and then rendered to HTML or PDF.</p>
+<p>Even though static, PDFs are widely used as a final format in education communities because of their uniform representation, independent of the device. As discussed previously, all text-based intermediary file formats can be easily represented as PDFs, preserving their formatting.  Directly editing PDF files or reverting the PDF conversion process, while possible, is usually discouraged, due to the requirements of specialized software and potentially inconsistent output results. PDF files can also be digitally signed and optionally protected in a standardized manner, guaranteeing their authenticity and integrity. </p>
+<p>For large amounts of mixed content that includes both text and multimedia, and which is constrained by the sizes of physical paper formats enforced by PDFs, Git books are a feasible alternative. Git books are most often represented as complete web sites, comprised of multiple HTML pages, automatically rendered via a conversion process which takes one of the plain-text formats as input. Ready-made frameworks exist for the development of such Git books, taking care of their overall design, user interface, and even publishing. The term Git in the name of the format refers to the source code management system of the same name, which is most often used for tracking changes made to the content of the text-based intermediary formats among several contributors. It is a common practice to make the Git repository hosting the intermediary text files public, promoting collaboration, and allowing external contributions to the work. The Open Science Training Handbook is one such real-world example of a Git Book which is publicly accessible as a set of nicely formatted web pages <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, while keeping the source Markdown files open as part of a Git repository for anyone to edit and contribute additional content <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. An example of this approach is the 23 (research data) Things set of training materials focused on research data management authored by the Australian Research Data community <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. The main learning content is defined using Markdown and images, and then rendered into a Git Book.</p>
+<p>Multimedia resources can either be embedded directly into the learning objects, in case an interactive final file format is used, or can be posted as independent files, linked to the main content using relevant metadata fields and references. The main challenge faced when dealing with these file formats is the expertise required for their editing, the need for specialized software tools, and the hosting location. Multimedia files require much more storage space compared to the other file formats, which usually leads to them being offloaded to external, third-party hosting platforms. In such cases, when resources are detached from the main body of content and hosted on third-party platforms, special care needs to be paid to the terms of use of the third-party services, and their reliability. It is recommended for a link-rot strategy to be in place, dealing with the problem of hyperlinks which are no longer accessible after a period of time due to them being moved to a new location, deleted, or permanently made inaccessible for any other reason. It is advised to monitor for such occurrences of link-rot and overcome them by relinking or reuploading (if the licence allows) any missing content which is no longer accessible.  </p>
+<p>In certain cases, it might be beneficial to allow learners directly alter the content of the training material, for example during interactive exercises or analysis of results. Interactive notebook formats have rapidly gained popularity in recent years, especially in subject areas that rely on extensive visualizations or scientific data analysis. Jupyter, Shiny, and Apache Zeppelin are all representatives of interactive notebooks, which allow mixing of static and dynamic content together. Usually, the static context is text written in either plain text, Markdown, LaTeX, or RMarkdown, while the dynamic content is represented by statements written in a supported programming language. When consuming the content, users have the option of directly altering the dynamic content, either by modifying the existing visualizations, adding/removing data, or performing further analysis using the syntax of the supported programming language by the notebook instance. It is also possible to make a static export of the notebook content in one of the supported final formats such as PDF or HTML. During the export process the dynamic content is evaluated and its results are statically included in the output, barring future changes, making the material more accessible on portable devices which might otherwise encounter problems when loading the more resource intensive, albeit interactive, notebook environment.  Quarto <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> is another versatile option that comes in addition to the built-in tools of the mentioned interactive notebooks. It can reduce the complexity of compiling such dynamic content to a representation which is more suitable for consumption by a wider audience, such as HTML, PDF, or ePub.</p>
+<h2 id="tools-for-creating-and-consuming-learning-objects">Tools for creating and consuming learning objects</h2>
+<p>Throughout the learning object development process, attention should be aimed at choosing the most suitable intermediate and final formats for delivery of the given learning material, instead of focusing on a particular tool. Nevertheless, Fig. 11 presents concrete tools which can be used for creating and consuming all of the previously discussed file formats. </p>
+<p>The tool selection in the figure is by no means exhaustive and should only serve as a starting point in the decision-making process regarding tooling. Most of the included tools are open-source software with permissive licenses, with notable exceptions being made where the popularity and wide-spread usage of a given software or platform could not be ignored, thus warranting inclusion into the list. This is the case for the majority of multimedia tools and platforms, since as discussed previously the overhead of hosting such files together with the rest of the learning objects incurs a high overhead in terms of compute resources (YouTube, Vimeo, SoundCloud). The list also includes the Microsoft .docx and .pptx formats, as well as the proprietary Google Docs and Google Slides formats, which were included due to their widespread usage and popularity today. Cloud hosted tools supporting these formats are very popular among educators and researchers today due to their effortless collaboration features and general ease-of-use. However, it should be recognized that such convenience comes at the cost of a vendor lock-in to an extent, limiting the interoperability options with other open source tools. Even though there are other alternative office document formats, together with open source office suites, usually in practice compatibility issues arise, and testing should be done on a case-by-case basis.</p>
+<p>When it comes to the vast landscape of software tools for editing text-based formats, such as Markdown and LaTeX, applications which offer on-the-fly preview of the written content can provide a more pleasant first user experience and a gentler learning curve. Examples include the Zettlr <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> and HedgeDoc <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> editors. On the other hand, more advanced users might appreciate greater customizability usually attributed to command line utilities such as Pandoc <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>, which can be used as a general-purpose converter to/from various different formats, including producing PDF and web page representation of existing Markdown and LaTeX files.</p>
+<h2 id="ensuring-compatibility-and-longevity-of-the-learning-objects">Ensuring compatibility and longevity of the learning objects</h2>
+<p>Both compatibility and longevity play an important role in the development of FAIR-by-design learning objects. Instructors should strive to use open formats which are tool agnostic and compatible with a wide variety of existing software, thus avoiding proprietary features, which might also lead to an undesirable vendor lock-in effect. The use of open formats not only makes it easier for learners to consume the final output, but also increases its overall reusability, and future-proofs its usefulness. Designing the training materials using standardized and open file formats, decoupled from a specific software tool or even a particular version of a software tool ensures the longevity of the material, and limits the influence of external factors which are not controlled by neither the instructors nor learners consuming it. In the past many file formats have been tightly coupled with specific tooling, such as in the case of Java Applets or Flash, which led to the inaccessibility of many educational materials constructed using these technologies once they were deprecated. </p>
+<h2 id="ensuring-accessibility">Ensuring accessibility</h2>
+<p>In this stage care must be taken that the content of the newly developed learning materials is accessible for everyone. Herein accessibility transcends the definition in FAIR and refers to the idea that people of all abilities should be able to access the content <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup>. This includes developing content for people with different learning styles as well as ensuring that the content will be accessible to people with disabilities. In addition, it also refers to the idea that the learning materials should include different viewpoints of the subject matter. In other words, the development process should be done in such a way that the newly created learning objects are accessible, diverse and inclusive overcoming challenges such as physical impairments, learning disabilities, language comprehension, and other limitations. </p>
+<p>The Self-Publishing Guide by BCcampus <sup id="fnref2:8"><a class="footnote-ref" href="#fn:8">8</a></sup> provides an exhaustive list of challenges that need to be addressed to ensure accessibility, diversity and inclusion while creating new learning materials. There are many other instructional support pages such as <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>, that provide clear, precise instructions on how to overcome these challenges by paying attention to employing more advanced formatting techniques, special colour palettes, alternative text, captioning, etc. Many of these guidelines are easy to implement, yet they go a long way when it comes to accessibility for people with impairments. Such examples include using different level headings for titles, using built-in list tools, using column headers and row headers on tables, and using math tools instead of images of equations. A very helpful set of Accessibility Handbooks available under a CC licence can be found at <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup>.</p>
+<p>When it comes to the application specific accessible materials creation, there are even more specific guides that can be followed to ensure highest level of accessibility, such as the Microsoft guide for Power Point Accessibility <sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup> or the PDF accessibility guide provided by Adobe <sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup>. A set of guidelines and documents for development of accessible PDFs, presentations and spreadsheets can be found on the pages of the Accessible Electronic Documents Community of Practice (AED COP) of the Federal CIO Council of the US <sup id="fnref:13"><a class="footnote-ref" href="#fn:13">13</a></sup>. A guide to making events (including training) accessible has also been developed by the W3C Web Accessibility Initiative (WAI) <sup id="fnref:14"><a class="footnote-ref" href="#fn:14">14</a></sup>.
+The end goal of the efforts to ensure accessibility should be the Web Content Accessibility Guidelines (WCAG) 2 Level AA Conformance <sup id="fnref:15"><a class="footnote-ref" href="#fn:15">15</a></sup> for all produced web content and PDF/Universal Accessibility (PDF/UA) <sup id="fnref:16"><a class="footnote-ref" href="#fn:16">16</a></sup>, formally ISO 14289, for PDF materials. Note that on the level of different countries, there are different laws and standards that need to be followed in addition to these global objectives. WCAG offers a large set of accessibility checking tools <sup id="fnref:17"><a class="footnote-ref" href="#fn:17">17</a></sup> that can be used to obtain a report on the current accessibility status of the provided learning materials.</p>
+<h2 id="metadata-definition-across-all-learning-objects">Metadata definition across all learning objects</h2>
+<p>Once the structure of learning objects defined with the syllabus has been completed, the next step is to apply relevant metadata information. Enriching the learning objects with relevant metadata aids their findability and reproducibility, especially in circumstances where a permissive and open licence has also been assigned. </p>
+<figure>
+<p><img alt="Figure 12 Example metadata for the RePol course" src="../attachments/metadata.png" />
+  </p>
+<figcaption>Fig. 12 - Example metadata for the RePol course</figcaption>
+</figure>
+<p>Specific metadata fields can also be used to more clearly specify the wider context of a given learning object, allowing it to be independently shared and reused across different media in varying scenarios. For an example, in Fig. 12, the metadata for an example course, RePol - Repository Policy Generator hosted on the NI4OS Training Platform is presented. The metadata for this course follows an extended version of the RDA minimal metadata set, as defined by the EOSC Future project.</p>
+<p>A very important, albeit often overlooked aspect to keep in mind during the development and verification phases of learning objects is that a careful balance needs to be stricken when it comes to the details and surrounding context of the material. On the one hand, it is desired that learning objects should be as standalone as possible, free of interdependencies. This ensures effortless reuse by educators, allowing higher level learning resources (learning units, courses, learning paths) to be created based on composition of both new and existing lower level (in a hierarchical sense) learning materials and objects. However, on the other hand, from a learners’ perspective, such a flat approach with a limited overall context would pose challenges. Learners would need to resort to manually searching for relevant materials on a given topic of interest in case no higher-level learning resources currently exist or are simply not easily findable due to their limited adoption of the FAIR principles. </p>
+<p>An elegant way to strike a balance between the reusability of the material and its attachment to a narrower context, useful to learners in their effort to achieve more advanced and focused learning outcomes, is through the comprehensive use of metadata. Metadata information should not be limited only to atomic learning objects. On the contrary, it should be applied across all levels of the hierarchy, stretching from learning objects, to learning units, to courses, and learning paths. The previously discussed and recommended RDA metadata schema is agnostic when it comes to what level in this hierarchy it is being applied to. This is an important feature which allows the same metadata fields to be reused for different kinds of learning materials across the complete hierarchy, without the need to develop new metadata schemas or exchange, analysis, and verification tools.</p>
+<p>The three different categories of fields which comprise the RDA metadata schema – Descriptive, Access, and Educational, along with the proposed two extra fields "isPartOf" and "isBasedOn", facilitate effortless reuse of existing materials by educators, while ensuring that the surrounding context is preserved, comprehensible, and easily accessible for learners. An all-encompassing application of the RDA metadata schema across the whole hierarchy of learning material would ensure that the desired FAIR criteria are met by all associated resources.  The "isPartOf" and "isBasedOn" properties can also be used to improve the capacity to model hierarchical relationships, even when sharing learning objects independently of their higher-level elements, preserving the overall context in which they were originally defined. </p>
+<p>The use of a standardized metadata schema across the complete hierarchy of learning materials also has the added benefit of making the process of assigning metadata information easier, well-defined, and can even lead to the development of automation tools capable of prepopulating a subset of the fields by themselves, without human interaction. For example, the following metadata fields can be derived from comprising learning resources, when discussing higher level materials:</p>
+<ul>
+<li>Author(s) – a list of all the authors of the encompassed learning material, optionally extended with the creator of the higher-level resource;</li>
+<li>Language – a list of languages in which the included learning material is available;</li>
+<li>Keywords – a list comprised of all the unique keywords assigned to each of the included learning material;</li>
+<li>Licence – depends on the desired licence for the new higher-level resource, as well as its compatibility with the licenses of included learning materials;</li>
+<li>Access Cost – sum of all access costs for the comprising materials, or a previously determined cost, as determined by the creator of the higher-level learning element. If the final learning materials are not open and for free, note that the use for commercial purposes must be allowed by all licenses, the new licence for the higher-level resource licenses of separate learning objects;</li>
+<li>Learning Resource Type – a list containing the information regarding learning resource types of all included materials;</li>
+<li>Expertise Level – in the case of mixed expertise levels for the included material, the most advanced one should be chosen for the new learning element;</li>
+<li>isPartOf – an automatically set reference to the encompassing resource;</li>
+<li>isBasedOn – list of references to the persistent identifiers of all included learning material.</li>
+</ul>
+<p>The remaining descriptive, access, and educational fields need to be manually provided or depend upon rules which might be specific to a given subject area. </p>
+<p>The use of automated tools for metadata enrichment can very much alleviate this step and ensure it is not prone to human error. Such automated tools can be used for continuous updating of the metadata, ensuring that the information assigned to the higher-level resources is always in sync with the changes made to the lower-level materials. Alternatively, automated tools can be used in conjunction with manual enrichment, limiting the syncing only to fields which have not been customized manually by a human operator. However, these tools should be supported by the learning management platform that is used to host the learning materials. </p>
+<h2 id="internal-quality-assurance-check">Internal quality assurance check</h2>
+<p>At the end of this stage, the whole bundle of learning materials should be ready to be offered to the learners. Before this is done in the publish stage, an internal quality assurance (QA) check is needed to ensure that nothing has been overlooked and that everything combines together as intended.</p>
+<p>Best practices <sup id="fnref:18"><a class="footnote-ref" href="#fn:18">18</a></sup> are to have a separate evaluator that will perform the internal QA and provide feedback: whether the learning materials bundle is ready for publishing or there are some issues that need to be addressed in order to ensure high-quality production of the materials and thus high-level user experience by the learners. </p>
+<p>The main criteria that should be evaluated during this stage are a mix of standard QA check for training materials and additional FAIRness related checks. </p>
+<p>A high-level internal QA checklist that covers all aspects should include the following:</p>
+<ul>
+<li>Overall design;</li>
+<li>Appropriate topic breakdown and structured layout aligned with syllabus;</li>
+<li>Metadata description for all learning objects (aligned with the RDA recommendations, or another domain specific schema);</li>
+<li>Quality of media in the material;</li>
+<li>Matched level of context to target group, easy to consume and understand;</li>
+<li>Appropriate prerequisites defined;</li>
+<li>Content aligned with clear learning objectives;</li>
+<li>Attribution/Citing of external sources;</li>
+<li>Accessible to consumers using simple, intuitive tools;</li>
+<li>Comprehensive facilitator guide;</li>
+<li>Assessment tasks (types and content);</li>
+<li>Use of controlled vocabularies.</li>
+</ul>
+<p>Many education-oriented institutions have their own internal QA processes that should be activated at this step. In this case, it is essential that the FAIR aspects are not overlooked, in particular: appropriate copyright and licensing, attribution and citing, metadata and controlled vocabularies use, and reuse possibilities.</p>
+<h2 id="review-practical-information-on-how-to-implement-the-produce-stage-in-the-fair-by-design-microlearning-unit"><a href="https://fair-by-design-methodology.github.io/microlearning/latest/04%20Produce/produce/">Review practical information on how to implement the Produce stage in the FAIR-by-Design Microlearning unit</a></h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Sonja Bezjak, April Clyburne-Sherin, Philipp Conzett, Pedro Fernandes, Edit Görögh, Kerstin Helbig, Bianca Kramer, Ignasi Labastida, Kyle Niemeyer, Fotis Psomopoulos, Tony Ross-Hellauer, René Schneider, Jon Tennant, Ellen Verbakel, Helene Brinken, and Lambert Heller. Open Science Training Handbook. April 2018. URL: <a href="https://zenodo.org/record/1212496">https://zenodo.org/record/1212496</a> (visited on 2023-03-07), <a href="https://doi.org/10.5281/ZENODO.1212496">doi:10.5281/ZENODO.1212496</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Open-Science-Training-Handbook/Open-Science-Training-Handbook_en. December 2022. original-date: 2018-02-16T11:03:49Z. URL: <a href="https://github.com/Open-Science-Training-Handbook/Open-Science-Training-Handbook_EN">https://github.com/Open-Science-Training-Handbook/Open-Science-Training-Handbook_EN</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Matthias Liffers, Liz Stokes, Nichola Burton, Andrew Kelly, Tom Honeyman, Rowan Brownlee, Kerry Levett, and Catherine Brady. 23 (research data) Things. July 2020. URL: <a href="https://zenodo.org/record/3955524">https://zenodo.org/record/3955524</a> (visited on 2023-08-07), <a href="https://doi.org/10.5281/zenodo.3955524">doi:10.5281/zenodo.3955524</a>.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Quarto. URL: <a href="https://quarto.org/">https://quarto.org/</a> (visited on 2023-06-26).&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Zettlr. Zettlr. URL: <a href="https://www.zettlr.com/download">https://www.zettlr.com/download</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>HedgeDoc. HedgeDoc - Collaborative markdown notes. URL: <a href="https://demo.hedgedoc.org">https://demo.hedgedoc.org</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Pandoc. Pandoc - index. URL: <a href="https://pandoc.org/">https://pandoc.org/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>Lauri M. Aesoph. Accessibility, Diversity, and Inclusion. February 2018. Book Title: Self-Publishing Guide Publisher: BCcampus. URL: <a href="https://opentextbc.ca/selfpublishguide/chapter/accessibility-and-inclusion/">https://opentextbc.ca/selfpublishguide/chapter/accessibility-and-inclusion/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>webteam@pcc.edu. Creating Accessible Content. URL: <a href="https://www.pcc.edu/instructional-support/accessibility/">https://www.pcc.edu/instructional-support/accessibility/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>webteam@pcc.edu. Accessibility Handbooks. URL: <a href="https://www.pcc.edu/instructional-support/accessibility/handbook/">https://www.pcc.edu/instructional-support/accessibility/handbook/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>Microsoft Support. Make your PowerPoint presentations accessible to people with disabilities. URL: <a href="https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25">https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25</a> (visited on 2023-06-26).&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</li>
+<li id="fn:12">
+<p>Create and verify PDF accessibility (Acrobat Pro). URL: <a href="https://helpx.adobe.com/content/help/en/acrobat/using/create-verify-pdf-accessibility.html">https://helpx.adobe.com/content/help/en/acrobat/using/create-verify-pdf-accessibility.html</a> (visited on 2023-06-26).&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+</li>
+<li id="fn:13">
+<p>Accessible Electronic Documents Community of Practice (AED COP). Accessibility Testing for Electronic Documents. URL: <a href="https://www.section508.gov/test/documents/">https://www.section508.gov/test/documents/</a> (visited on 2023-06-26).&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 13 in the text">&#8617;</a></p>
+</li>
+<li id="fn:14">
+<p>W3C Web Accessibility Initiative (WAI). Making Events Accessible - Checklist for meetings, conferences, training, and presentations that are remote/virtual, in-person, or hybrid. URL: <a href="https://www.w3.org/WAI/teach-advocate/accessible-presentations/">https://www.w3.org/WAI/teach-advocate/accessible-presentations/</a> (visited on 2023-06-26).&#160;<a class="footnote-backref" href="#fnref:14" title="Jump back to footnote 14 in the text">&#8617;</a></p>
+</li>
+<li id="fn:15">
+<p>W3C Web Accessibility Initiative (WAI). Web Content Accessibility Guidelines (WCAG) 2 Level AA Conformance. URL: <a href="https://www.w3.org/WAI/WCAG2AA-Conformance">https://www.w3.org/WAI/WCAG2AA-Conformance</a> (visited on 2023-08-07).&#160;<a class="footnote-backref" href="#fnref:15" title="Jump back to footnote 15 in the text">&#8617;</a></p>
+</li>
+<li id="fn:16">
+<p>ISO 14289 (PDF/UA) – PDF Association. URL: <a href="https://pdfa.org/resource/iso-14289-pdfua/">https://pdfa.org/resource/iso-14289-pdfua/</a> (visited on 2023-08-07).&#160;<a class="footnote-backref" href="#fnref:16" title="Jump back to footnote 16 in the text">&#8617;</a></p>
+</li>
+<li id="fn:17">
+<p>Web Accessibility Evaluation Tools List. URL: <a href="https://www.w3.org/WAI/ER/tools/?q=wcag-21-w3c-web-content-accessibility-guidelines-21">https://www.w3.org/WAI/ER/tools/?q=wcag-21-w3c-web-content-accessibility-guidelines-21</a> (visited on 2023-08-07).&#160;<a class="footnote-backref" href="#fnref:17" title="Jump back to footnote 17 in the text">&#8617;</a></p>
+</li>
+<li id="fn:18">
+<p>Handbook of quality assurance for university teaching. 2019.&#160;<a class="footnote-backref" href="#fnref:18" title="Jump back to footnote 18 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../413-design/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Design" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          Design
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../415-publish/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: Publish" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          Publish
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>

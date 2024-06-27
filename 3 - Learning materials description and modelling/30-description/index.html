@@ -1,0 +1,1072 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Skills4EOSC T2.3">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>Modeling learning materials - FAIR-by-Design Methodology</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#learning-materials-description-and-modelling" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="FAIR-by-Design Methodology" class="md-header__button md-logo" aria-label="FAIR-by-Design Methodology" data-md-component="logo">
+      
+  <img src="../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Methodology
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Modeling learning materials
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="FAIR-by-Design Methodology" class="md-nav__button md-logo" aria-label="FAIR-by-Design Methodology" data-md-component="logo">
+      
+  <img src="../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Methodology
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Essential Information
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../imagemap/" class="md-nav__link">
+        FAIR-by-Design Interactive map
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../related_materials/" class="md-nav__link">
+        Related materials
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../summary/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          0   Glossary
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="0   Glossary" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          0   Glossary
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0%20-%20Glossary/Acronyms/" class="md-nav__link">
+        List of Acronyms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0%20-%20Glossary/Terminology/" class="md-nav__link">
+        Terminology
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          1   Introduction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1   Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          1   Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1%20-%20Introduction/10-intro/" class="md-nav__link">
+        Intro
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          2   Importance of FAIR by design approach
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2   Importance of FAIR by design approach" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          2   Importance of FAIR by design approach
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20-%20Importance%20of%20FAIR-by-design%20approach/20-Importance/" class="md-nav__link">
+        FAIR-by-Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20-%20Importance%20of%20FAIR-by-design%20approach/21-previous_work/" class="md-nav__link">
+        Previous work
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          3   Learning materials description and modelling
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="3   Learning materials description and modelling" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          3   Learning materials description and modelling
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Modeling learning materials
+      </a>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../31-Describing_learning_materials/" class="md-nav__link">
+        Describing learning materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          4   FAIR by design learning materials creation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4   FAIR by design learning materials creation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          4   FAIR by design learning materials creation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/40-workflow/" class="md-nav__link">
+        FAIR-by-design learning materials development
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_2" type="checkbox" id="__nav_9_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_2">
+          4.1   Workflow stages description
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4.1   Workflow stages description" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_2">
+          <span class="md-nav__icon md-icon"></span>
+          4.1   Workflow stages description
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/41-workflow_stages_description/" class="md-nav__link">
+        Workflow Stages
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/411-prepare/" class="md-nav__link">
+        Prepare
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/412-discover/" class="md-nav__link">
+        Discover
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/413-design/" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/414-produce/" class="md-nav__link">
+        Produce
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/415-publish/" class="md-nav__link">
+        Publish
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/416-verify/" class="md-nav__link">
+        Verify
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_3" type="checkbox" id="__nav_9_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_3">
+          4.2   Continuous Improvement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4.2   Continuous Improvement" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_3">
+          <span class="md-nav__icon md-icon"></span>
+          4.2   Continuous Improvement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20-%20FAIR-by-design%20learning%20materials%20creation/4.2%20-%20Continuous%20Improvement/417-improvement/" class="md-nav__link">
+        Continuous Improvement
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          5   Checklists
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="5   Checklists" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          5   Checklists
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5%20-%20Checklists/51-methodology_checklist/" class="md-nav__link">
+        FAIR-by-Design Checklist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5%20-%20Checklists/52-cheatsheet/" class="md-nav__link">
+        FAIRification of existing material
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11">
+          6   Conclusion
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="6   Conclusion" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          6   Conclusion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6%20-%20Conclusion/60-conclusion/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="learning-materials-description-and-modelling">Learning materials description and modelling</h1>
+<p>To ensure a consistent, yet flexible, approach to the development of a FAIR-by-design methodology for EOSC related learning materials, a well-defined scope and modelling of learning materials are needed. This chapter is a formal introduction to the theories and frameworks that one can use to apply the FAIR principles to new or pre-existing EOSC learning materials.</p>
+<p>Herein, we adopt the definition of learning materials or learning resources as any types of materials that are used to support and enhance, directly or indirectly, learning and teaching <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> with their main goal being to help achieve the desired learning objectives (i.e. attain a set of learning outcomes). Note that in the general literature learning resources are also known as teaching-learning material, instructional materials or teaching aids. It has been shown that the utilisation of a large assortment of learning materials improves comprehension and improves the ability to learn in both group or independent setting, on premises or online <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. Hence, today there are many different types of learning materials including:</p>
+<ul>
+<li>printed materials such as handouts and manuals; </li>
+<li>audio-visual materials such as slides, images, videos, podcasts, and other multimedia; </li>
+<li>interactive materials in the form of learning applications on computers, tablets or smartphones such as quizzes and games among others; </li>
+</ul>
+<p>all of which are used in the instructional activities, including active learning and assessment. In line with the EOSC vision and the overarching digital transformation, the main focus of the FAIR-by-design methodology is on the digital learning materials. Digital materials are essential not only in the e-learning environment, but also in the more traditional learning settings such as classrooms, face to face trainings and workshops; all of which are seen as a potential learning venue within the EOSC ecosystem. </p>
+<p>In addition, in line with <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, the full scope of learning materials is considered to include:</p>
+<ul>
+<li>Learning content, such as courses, modules, learning units, etc. This includes all types of courseware such as learning materials, presentations, guides, case studies, activities, quizzes, etc.</li>
+<li>Tools that represent the software necessary to develop, use and deliver the learning content such as learning management systems, content development tools, online learning communities, etc. </li>
+<li>Implementation resources that are needed to support the development and promotion of the learning content such as best practices guides, licensing and copyright used for promotion and reuse, publishing standards, etc.<br />
+This entails that each learning resource needs to be accompanied together with the corresponding tools for its design and consumption as well as well-defined conditions for its use as presented in Fig. 1.</li>
+</ul>
+<figure>
+<p><img alt="Figure 1 Learning materials scope" src="../attachments/Scope.png" />
+  </p>
+<figcaption>Fig. 1 - Learning materials scope</figcaption>
+</figure>
+<p>One of the main decisions that need to be made when ensuring FAIRness of learning materials is to define the level of granularity on which the FAIR principles will start to be applied for a given set of learning materials. In other words, the main question is what is the minimum sized package of digital learning materials that is to be subjected to the FAIR principles? Is it a course (or training), a unit within a course (session within the training), or a single digital resource? If the granularity is too high, then there is a large overhead of metadata provisioning and cataloguing for a vast amount of FAIR learning resources with very little context related to them. On the other hand, low granularity will significantly reduce the effort of cataloguing, but also the possibility to combine different learning resources in order to create new learning content out of existing learning materials due to the inability to adopt only selected parts of a given material. To ensure flexibility and minimise the overhead, the minimum viable package of learning materials on which one can apply the FAIR-by-design methodology is based on the instructional design concept of learning object <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>.</p>
+<p>Thus, in the most general sense, we define a FAIR learning object as any FAIR digital resource that supports learning developed around a single learning objective. At the very core of this approach is the idea that the learning object, accompanied with suitable descriptive metadata, can be used as a common building block for the development of more complex learning content by reusing it, re-purposing it, and potentially revising it. </p>
+<p>Furthermore, to facilitate the reuse of learning objects, the best practice is to define a learning object as a package of a lesson, activity and assessment with a concrete learning outcome. Note that a similar approach is adopted in the OER community <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>. Other communities put even more heavy requirements on the minimum content of a learning object. Following the best practices presented in <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>, a learning object should include:</p>
+<ul>
+<li>Meaningful title (and subtitle);</li>
+<li>Single, specific learning objective;</li>
+<li>Target audience;</li>
+<li>Time required to complete the content;</li>
+<li>Guide for instructors and learners; </li>
+<li>Learning content;</li>
+<li>Self-evaluation;</li>
+<li>Final test to be used for formal evaluation.</li>
+</ul>
+<p>Using this approach, the process of combining FAIR learning objects into higher level FAIR learning resources can be conceptualised in a fashion similar to the well-known Learnativity aggregation model (Fig. 2). The most granular element in the system is a raw data element that represents a single digital file with no context. Once the learning context such as a summary or concept description is provided for this file, it transforms into an information object. One or more information objects that provide the learning content around one learning objective become a learning object. These objects can then be combined into different aggregates or assemblies to define lessons, or units, which are in turn combined into collections that can represent courses or learning paths. By defining the learning object as the minimum resource to which we apply the FAIR principles, one avoids the necessity to make raw elements and information objects FAIR, while enabling the creation of FAIR aggregates and collections of various sizes and complexities. In other words, the FAIR principles for learning materials should not be applied to raw elements or simple information objects, but to learning objects and/or their aggregates. This will ensure that the FAIR learning material can be developed as a stand-alone with enough context for its intended use, but also reuse by others. Applying FAIR to lower levels than a learning object will generate too much overhead in terms of time and effort, while losing the major aspects of learning materials such as learning objective.</p>
+<figure>
+<p><img alt="Figure 2 Learnativity aggregation model" src="../attachments/Model.png" />
+  </p>
+<figcaption>Fig. 2 - Learnativity aggregation model [^7]</figcaption>
+</figure>
+<p>In this sense, learning objects aim to facilitate FAIRness of learning materials by enabling the design of small self-contained units of learning content that can be then reused in different courses and other learning materials or even large programmes. Following these concepts, FAIR learning objects exhibit the following characteristics:</p>
+<ul>
+<li><strong>Findable</strong> – the learning object is the lowest hierarchical level of findability of learning materials in the EOSC ecosystem and is thus the lowest hierarchical level that can be described with metadata and catalogued; </li>
+<li><strong>Accessible</strong> – the full scope (content, tools and implementation resources) of the learning object should be accessible to both learning producers and consumers in the EOSC ecosystem;</li>
+<li><strong>Interoperable</strong> – with a well-chosen scope (content, tools and implementation resources), the learning object can be consumed on multiple platforms; </li>
+<li><strong>Re-usable</strong> – each learning object can be put in a wider context based on the specific learning requirements of a particular aggregate course, unit or module in the EOSC ecosystem.</li>
+</ul>
+<p>Note that the definition of the aggregation model is such that these characteristics are also applicable to any higher-level aggregation of FAIR learning objects. </p>
+<p>This approach to composability of learning objects is well aligned with other efforts such as the IEEE LOM <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> wherein there are four levels of granularity:</p>
+<ul>
+<li>L1 – a unit of learning, atomic material, indivisible learning material such as an image;</li>
+<li>L2 – a collection of L1 objects, i.e. lesson, such as a web page that is a set of an HTML file and a number of images;</li>
+<li>L3 – a collection of L2 objects, i.e. course, such as a web site with a number of pages;</li>
+<li>L4 – highest level of granularity, such as study programme or learning path obtained as a collection of L3 and/or L4 objects.</li>
+</ul>
+<p>The FAIR learning object in this case corresponds to the L2 granularity.</p>
+<p>Similarly, the Shareable Content Object Reference Model (SCORM) <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup> that represents a collection of standards that aim to promote interoperable, accessible, and re-usable learning content defines a content model that consists of:</p>
+<ul>
+<li>Assets – smallest piece of learning content; </li>
+<li>Shareable Content Objects (SCOs) – aggregation of assets that communicates with a virtual learning environment;</li>
+<li>Content aggregation – structured map of learning resources.</li>
+</ul>
+<p>The SCORM content aggregation is composed of assets, SCOs, definition of their order and metadata that describes the entire aggregation and its individual components. Thus, in the proposed model, a SCORM content aggregation can be considered to correspond to a FAIR learning object.</p>
+<figure>
+<p><img alt="Figure 3 FAIR learning objects characteristics" src="../attachments/FAIRlo.png" />
+  </p>
+<figcaption>Fig. 3 - FAIR learning objects characteristics</figcaption>
+</figure>
+<p>In summary, the FAIR-by-design methodology strives to ensure the implementation of the following specific characteristics of FAIR learning objects (Fig. 3):</p>
+<ul>
+<li>FAIR learning objects are digital;</li>
+<li>FAIR learning objects contain learning content and information on tools and implementation resources;</li>
+<li>FAIR learning objects have an explicit learning objective;</li>
+<li>FAIR learning objects tend to be, but are not necessarily, small or granular in nature;</li>
+<li>FAIR learning objects tend to be, but are not necessarily, disassociated from context;</li>
+<li>FAIR learning objects are stored in a repository;</li>
+<li>FAIR learning objects are described using a metadata specification;</li>
+<li>FAIR learning objects are findable through searching a catalogue;</li>
+<li>FAIR learning objects are interoperable in that they can be used in multiple learning environments;</li>
+<li>FAIR learning objects are reusable by both other instructors and learners;</li>
+<li>FAIR learning objects can be repurposed for different learning contexts;</li>
+<li>FAIR learning objects are composable into aggregates.</li>
+</ul>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>International Bureau of Education UNESCO. Learning resources. May 2016. URL: <a href="http://www.ibe.unesco.org/en/glossary-curriculum-terminology/l/learning-resources">http://www.ibe.unesco.org/en/glossary-curriculum-terminology/l/learning-resources</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>I-Chun Hung, Kinshuk, and Nian-Shing Chen. Embodied interactive video lectures for improving learning comprehension and retention. February 2018. URL: <a href="https://linkinghub.elsevier.com/retrieve/pii/S0360131517302312">https://linkinghub.elsevier.com/retrieve/pii/S0360131517302312</a> (visited on 2023-03-07), <a href="https://doi.org/10.1016/j.compedu.2017.10.005">doi:10.1016/j.compedu.2017.10.005</a>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>OECD. Giving Knowledge for Free: The Emergence of Open Educational Resources. URL: <a href="https://www.oecd.org/education/ceri/givingknowledgeforfreetheemergenceofopeneducationalresources.htm">https://www.oecd.org/education/ceri/givingknowledgeforfreetheemergenceofopeneducationalresources.htm</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>The instructional use of learning objects. 2002.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Indiana University of Pensilvania. LibGuides: Open Educational Resources: Examples of OER. URL: <a href="https://libraryguides.lib.iup.edu/oer/examples">https://libraryguides.lib.iup.edu/oer/examples</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Matt Powell. Using Learning Objects as “Knowledge Packages” to Achieve Learning Objectives. June 2018. URL: <a href="https://www.docebo.com/learning-network/blog/what-is-learning-objects-elearning-2/">https://www.docebo.com/learning-network/blog/what-is-learning-objects-elearning-2/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Panos Balatsoukas, Anne Morris, and Ann O'Brien. Learning Objects Update: Review and Critical Approach to Content Aggregation. 2008. Publisher: International Forum of Educational Technology &amp; Society ERIC Number: EJ814100.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>IEEE Standards Association. IEEE 1484.12.1-2020 IEEE Standard for Learning Object Metadata. URL: <a href="https://standards.ieee.org">https://standards.ieee.org</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>Rustici Software. SCORM.com HomePage: What is SCORM and How it Works. URL: <a href="https://scorm.com/">https://scorm.com/</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../../2%20-%20Importance%20of%20FAIR-by-design%20approach/21-previous_work/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Previous work" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          Previous work
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../31-Describing_learning_materials/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: Describing learning materials" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          Describing learning materials
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>

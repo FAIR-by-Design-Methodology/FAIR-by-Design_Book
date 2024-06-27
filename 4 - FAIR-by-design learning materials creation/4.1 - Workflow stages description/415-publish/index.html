@@ -1,0 +1,1121 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Skills4EOSC T2.3">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>Publish - FAIR-by-Design Methodology</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#depositing-the-editable-learning-objects-in-a-repository" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="FAIR-by-Design Methodology" class="md-header__button md-logo" aria-label="FAIR-by-Design Methodology" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR-by-Design Methodology
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Publish
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="FAIR-by-Design Methodology" class="md-nav__button md-logo" aria-label="FAIR-by-Design Methodology" data-md-component="logo">
+      
+  <img src="../../../attachments/logo-white.png" alt="logo">
+
+    </a>
+    FAIR-by-Design Methodology
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Essential Information
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../imagemap/" class="md-nav__link">
+        FAIR-by-Design Interactive map
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../related_materials/" class="md-nav__link">
+        Related materials
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../summary/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          0   Glossary
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="0   Glossary" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          0   Glossary
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../0%20-%20Glossary/Acronyms/" class="md-nav__link">
+        List of Acronyms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../0%20-%20Glossary/Terminology/" class="md-nav__link">
+        Terminology
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          1   Introduction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1   Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          1   Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1%20-%20Introduction/10-intro/" class="md-nav__link">
+        Intro
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          2   Importance of FAIR by design approach
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2   Importance of FAIR by design approach" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          2   Importance of FAIR by design approach
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2%20-%20Importance%20of%20FAIR-by-design%20approach/20-Importance/" class="md-nav__link">
+        FAIR-by-Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2%20-%20Importance%20of%20FAIR-by-design%20approach/21-previous_work/" class="md-nav__link">
+        Previous work
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          3   Learning materials description and modelling
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="3   Learning materials description and modelling" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          3   Learning materials description and modelling
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../3%20-%20Learning%20materials%20description%20and%20modelling/30-description/" class="md-nav__link">
+        Modeling learning materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../3%20-%20Learning%20materials%20description%20and%20modelling/31-Describing_learning_materials/" class="md-nav__link">
+        Describing learning materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          4   FAIR by design learning materials creation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4   FAIR by design learning materials creation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          4   FAIR by design learning materials creation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../40-workflow/" class="md-nav__link">
+        FAIR-by-design learning materials development
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_2" type="checkbox" id="__nav_9_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_2">
+          4.1   Workflow stages description
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4.1   Workflow stages description" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_2">
+          <span class="md-nav__icon md-icon"></span>
+          4.1   Workflow stages description
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../41-workflow_stages_description/" class="md-nav__link">
+        Workflow Stages
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../411-prepare/" class="md-nav__link">
+        Prepare
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../412-discover/" class="md-nav__link">
+        Discover
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../413-design/" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../414-produce/" class="md-nav__link">
+        Produce
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Publish
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Publish
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#depositing-the-editable-learning-objects-in-a-repository" class="md-nav__link">
+    Depositing the editable learning objects in a repository
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publishing-with-access-rules" class="md-nav__link">
+    Publishing with access rules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-how-to-cite-information" class="md-nav__link">
+    Adding how to cite information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-feedback-gathering" class="md-nav__link">
+    Setup feedback gathering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#list-in-relevant-catalogues" class="md-nav__link">
+    List in relevant catalogues
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-practical-information-on-how-to-implement-the-publish-stage-in-the-fair-by-design-microlearning-unit" class="md-nav__link">
+    Review practical information on how to implement the Publish stage in the FAIR-by-Design Microlearning unit
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../416-verify/" class="md-nav__link">
+        Verify
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_3" type="checkbox" id="__nav_9_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_3">
+          4.2   Continuous Improvement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="4.2   Continuous Improvement" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_3">
+          <span class="md-nav__icon md-icon"></span>
+          4.2   Continuous Improvement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4.2%20-%20Continuous%20Improvement/417-improvement/" class="md-nav__link">
+        Continuous Improvement
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          5   Checklists
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="5   Checklists" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          5   Checklists
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../5%20-%20Checklists/51-methodology_checklist/" class="md-nav__link">
+        FAIR-by-Design Checklist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../5%20-%20Checklists/52-cheatsheet/" class="md-nav__link">
+        FAIRification of existing material
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11">
+          6   Conclusion
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="6   Conclusion" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          6   Conclusion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../6%20-%20Conclusion/60-conclusion/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#depositing-the-editable-learning-objects-in-a-repository" class="md-nav__link">
+    Depositing the editable learning objects in a repository
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publishing-with-access-rules" class="md-nav__link">
+    Publishing with access rules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-how-to-cite-information" class="md-nav__link">
+    Adding how to cite information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-feedback-gathering" class="md-nav__link">
+    Setup feedback gathering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#list-in-relevant-catalogues" class="md-nav__link">
+    List in relevant catalogues
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-practical-information-on-how-to-implement-the-publish-stage-in-the-fair-by-design-microlearning-unit" class="md-nav__link">
+    Review practical information on how to implement the Publish stage in the FAIR-by-Design Microlearning unit
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+  <h1>Publish</h1>
+
+<figure>
+<p><img alt="Figure 13 Main goals of the publish stage" src="../attachments/publish.png" />
+  </p>
+<figcaption>Fig. 13 - Main goals of the publish stage</figcaption>
+</figure>
+<p>The publishing phase of the workflow refers to the release of the produced learning objects and associated metadata. The publishing refers to both newly created learning objects and new versions of previously published objects. </p>
+<h2 id="depositing-the-editable-learning-objects-in-a-repository">Depositing the editable learning objects in a repository</h2>
+<p>A clear distinction should be made between deposited learning objects and learning objects published as part of larger learning units, such as courses. The former should be deposited in relevant repositories <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, as separate deposits, preferably in source format (editable), while the latter are usually published on learning/training platforms. The main difference between the two is the target audience. The former target instructors/trainers to use/reuse the objects for producing learning materials, while the latter are mostly targeted toward the learners/trainees for consumption. </p>
+<p>Each deposited learning object should be accompanied by relevant metadata, providing information for its discovery, composition, and reuse, and appropriate persistent identifier <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. </p>
+<p>One of the preferred platforms to host the editable (source) format of the learning objects for collaborative development can be GitHub, a well-known cloud-based platform for software development <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. GitHub provides built-in visioning mechanism, enabling instructors to easily track the versions of the learning objects. However, while it does offer permanent storage, GitHub does not provide persistent identifiers for the hosted objects. To overcome this shortcoming, the integration between Zenodo and GitHub can be used. Once materials are created and/or added to a GitHub repository, the authors should navigate to Zenodo, use GitHub credentials for login and using the Zenodo GitHub page, archive the GitHub repository to Zenodo. The detailed procedure is described in <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. Once the repository is archived to Zenodo, it will be assigned a persistent identifier (such as DOI). An example that has already implemented this integration between GitHub and Zenodo is the Opensciency curriculum <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> discussed previously. The snapshot of the GitHub repository at the moment of publication is offered in the form of a zip archive on Zenodo. The preview provides the file structure of the archive.</p>
+<p>Given that learning objects should be granular and disassociated from the context as much as possible, as well as to provide easier reuse the deposition in learning object repositories, such as ones given in this list <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>, depositing learning objects in repositories should be done in a flat model, avoiding any hierarchical approach that would potentially hide some learning object within a given context. On the other hand, learning objects that are composed in higher level elements, such as courses, published on learning platforms and offered for consumption by learners, should be done in a more hierarchical manner, depending highly on the context. </p>
+<h2 id="publishing-with-access-rules">Publishing with access rules</h2>
+<p>Even though the goal of FAIR training material is to be widely accessible, in some cases access rules must be defined, in the form of who has access (authentication) and to what objects (authorisation). Access rules should be assigned consistently. When combining learning objects with different accessibility rules, the most restrictive rules should be clearly stated during the publishing phase. Based on the FAIR principles, it must be assured that the learning materials are "available at the point of access". This means that they should be searchable and findable, based on the metadata description, and the search result should provide a landing page with all details about the learning materials, including how to get access if they are not open, cost and alike.</p>
+<p>If the materials can not be fully open to everyone, then the record published in an open repository should contain only the full metadata describing the learning materials together with information on how to access them including the links and the rules.</p>
+<h2 id="adding-how-to-cite-information">Adding how to cite information</h2>
+<p>At this stage the attribution for the learning materials should be provided so that it can be used if someone else decides to reuse the provided materials. Again, special consideration should be given when simply compiling higher lever learning materials out of existing individual learning objects that have different attributions. In this case, the attribution should note that it refers to the activity of gathering and organising existing materials. In cases when there is a mix of original content and existing learning objects, then the overall attribution refers to the new author(s), while for each reused part clear attribution to the original author should be provided. </p>
+<h2 id="setup-feedback-gathering">Setup feedback gathering</h2>
+<p>Once the materials are published and made available to the public, there should be mechanisms in place that will enable gathering feedback about their use. Collecting feedback on the published learning materials is key to implementing continual improvement. The exact type of feedback collection should heavily depend on the way the learning materials are presented to the users/learners. </p>
+<p>In face-to-face (f2f) sessions, feedback can be collected during the delivery of the training and after it. Interactive feedback collection can be more valuable, since the opinions of the learners are collected as they perceive the learning materials. </p>
+<p>For online published materials, feedback is usually collected post-festum, after the learner completes a given unit of learning objects. </p>
+<p>Another aspect of feedback gathering related to the feedback from the community of instructors/trainers that use the provided learning materials to augment their own trainings or to develop their own learning materials. It is encouraged to enable at least one channel of communication (it can be as simple as a request for feedback via email) that will enable the creator receive feedback from the community on the level of reusability of the offered learning materials. This effort can not only lead to producing higher quality learning materials by employing the continuous improvement loop, but also to building a strong community of instructors that can work closely together when producing new learning materials.</p>
+<h2 id="list-in-relevant-catalogues">List in relevant catalogues</h2>
+<p>To make the learning materials more easily findable, after publishing in the relevant repository and learning platform, they should also be listed in relevant training catalogues. The catalogue entry can be done manually, or it can be created by an automated harvester that indexes the particular repository or learning platform. As discussed in the discovery stage, there are different catalogues available: thematic, national, regional, project-based etc. At the moment there is a significant amount of work in the EOSC related projects, led by EOSC Future, aiming to implement training catalogue aggregation of all diverse types of training catalogues into one master EOSC training catalogue <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>. This type of catalogue aggregation will simplify the findability of training materials for the end-users, giving them (ideally) a single point of access to various learning objects.</p>
+<h2 id="review-practical-information-on-how-to-implement-the-publish-stage-in-the-fair-by-design-microlearning-unit"><a href="https://fair-by-design-methodology.github.io/microlearning/latest/05%20Publish/publish/">Review practical information on how to implement the Publish stage in the FAIR-by-Design Microlearning unit</a></h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>EduTech Wiki. Learning objects repositories. URL: <a href="https://edutechwiki.unige.ch/en/Learning_objects_repositories">https://edutechwiki.unige.ch/en/Learning_objects_repositories</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>University of Padova. Persistent Identifiers: What if? (Learning Object included). URL: <a href="https://elearning.unipd.it/sba/mod/misc/tool/print/index.php?id=7">https://elearning.unipd.it/sba/mod/misc/tool/print/index.php?id=7</a>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>GitHub Platform. URL: <a href="https://github.com">https://github.com</a> (visited on 2023-06-26).&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>GitHub Docs. Referencing and citing content. URL: <a href="https://ghdocs-prod.azurewebsites.net/en/repositories/archiving-a-github-repository/referencing-and-citing-content">https://ghdocs-prod.azurewebsites.net/en/repositories/archiving-a-github-repository/referencing-and-citing-content</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Batool Almarzouq, Flavio Azevedo, Natasha Batalha, Johanna Bayer, Tomo Bell, Saranjeet Bhogal, Melissa Black, Sierra Brown, Elio Campitelli, Taher Chegini, Daniel Dunleavy, Yeo Keat Ee, Sara El-Gebali, Christopher Erdmann, Jannatul Ferdush, Anne Fouilloux, Siobhan Mackenzie Hall, Ismael Kherroubi Garcia, Stephen Klusza, Michel Lacerda, Andrea Medina-Smith, Mariana Meireles, Shamsuddeen Muhammad, Babatunde Onabajo, Amber Osman, Elli Papadopoulou, Karega Pauline, Esther Plomp, Douglas Rao, Rebecca Ringuette, Daniela Saderi, Hugh Shanahan, Malvika Sharan, Miguel Silan, Mayya Sundukova, Tyson Swetnam, Ana Vaz, and Yo Yehudi. Opensciency - A core open science curriculum by and for the research community. February 2023. URL: <a href="https://zenodo.org/record/7662732">https://zenodo.org/record/7662732</a> (visited on 2023-08-07), <a href="https://doi.org/10.5281/zenodo.7662732">doi:10.5281/zenodo.7662732</a>.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Edutech Wiki. Learning object repository. URL: <a href="https://edutechwiki.unige.ch/en/Learning_object_repository">https://edutechwiki.unige.ch/en/Learning_object_repository</a>.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>EOSC Portal. EOSC Search Service - Training. URL: <a href="https://search.eosc-portal.eu/search/training?q=*">https://search.eosc-portal.eu/search/training?q=*</a> (visited on 2023-03-07).&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  
+  
+  <nav class="md-footer__inner md-grid" aria-label="" >
+    
+    
+    <a href="../414-produce/" class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Produce" rel="prev">
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Previous
+        </span>
+        <div class="md-ellipsis">
+          Produce
+        </div>
+      </div>
+    </a>
+    
+    
+    
+    <a href="../416-verify/" class="md-footer__link md-footer__link--next"
+      aria-label="Next: Verify" rel="next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">
+          Next
+        </span>
+        <div class="md-ellipsis">
+          Verify
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center">
+        <div class="md-copyright"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+              alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/a9f9eb58f58a4c39a32609c160ca52922c41fc2a/resources/attachments/cc-by.png" /></a> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+            Attribution 4.0 International License</a>.
+        </div>
+      </div>
+
+    </div>
+    <div class="logos-container" style="display: block; text-align: center;">
+      <img alt="Skills4EOSC Logo" style="max-height:30px" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/logo-white.png" />
+      <img alt="EOSC Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eosc-logo.png">
+      <img alt="Co-funded by the European Union Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/eu-logo.png" />
+      <img alt="UK Research and Innovation Logo" style="height: 30px;" src="https://raw.githubusercontent.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT/main/resources/attachments/ukri-logo.png" />
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>
