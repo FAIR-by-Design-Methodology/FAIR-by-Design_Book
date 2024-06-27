@@ -10,7 +10,7 @@ List of training materials related to the practical implementation of the FAIR-b
  * [FAIR-by-Design Methodology GitHub resources](https://github.com/FAIR-by-Design-Methodology/FAIR-by-Design_ToT)
  
 
- ## Template Repository
+## Template Repository
 
 
  * [The FAIR-by-Design Methodology Templates repository that can be used as seed for your FAIR-by-Design development of learning materials](https://github.com/FAIR-by-Design-Methodology/templates)
