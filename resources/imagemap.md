@@ -48,7 +48,7 @@ Click on the steps to jump to the part of the methodology that describes the ste
 		title="QUALITY CHECK"/>		
 <area shape="rect"
 		coords="390,710,695,840"
-		href="https://fair-by-design-methodology.github.io/FAIR-by-Design_ToT/latest/Stage%206%20%E2%80%93%20Verify/19-Final%20QA%20check/19-finalQA/#self-check-qa"
+		href="https://fair-by-design-methodology.github.io/FAIR-by-Design_Book/4%20-%20FAIR-by-design%20learning%20materials%20creation/4.1%20-%20Workflow%20stages%20description/416-verify/#qa-of-the-fairness-of-the-learning-materials"
 		alt="VERIFY FAIRNESS"
 		title="VERIFY FAIRNESS"/>		
 <area shape="rect"
