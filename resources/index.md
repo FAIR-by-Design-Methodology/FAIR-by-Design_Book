@@ -65,4 +65,4 @@ This work by Parties of the Skills4EOSC Project is licensed under a [Creative Co
 
 
 ## Cite as
-Filiposka, Sonja, Green, Dominique, Mishev, Anastas, Kjorveziroski, Vojdan, Corleto, Andrea, Napolitano, Eleonora, Paolini, Gabriela, Di Giorgio, Sara, Janik, Joanna, Schirru, Luca, Gingold, Arnaud, Hadrossek, Christine, Souyioultzoglou, Irakleitos, Leister, Carolin, & Lazzeri, Emma. (2023). Skills4EOSC D2.2 Methodology for FAIR-by-Design Learning Materials (GitBook). Zenodo. [https://doi.org/10.5281/zenodo.7875540](https://doi.org/10.5281/zenodo.7875540)
+Filiposka, Sonja, Green, Dominique, Mishev, Anastas, Kjorveziroski, Vojdan, Corleto, Andrea, Napolitano, Eleonora, Paolini, Gabriela, Di Giorgio, Sara, Janik, Joanna, Schirru, Luca, Gingold, Arnaud, Hadrossek, Christine, Souyioultzoglou, Irakleitos, Leister, Carolin, & Lazzeri, Emma. (2023). Skills4EOSC D2.2 Methodology for FAIR-by-Design Learning Materials (GitBook). Zenodo. [https://zenodo.org/doi/10.5281/zenodo.8305539](https://zenodo.org/doi/10.5281/zenodo.8305539)
